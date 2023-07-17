@@ -64,7 +64,7 @@
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
-<a href="rtl/index.html">View RTL Verson</a>
+<a href="rtl/index.php">View RTL Verson</a>
 </div>
 </div>
 
@@ -75,7 +75,7 @@
 <div class="row">
 <div class="col-4 col-md-4">
 <div class="logo-wrapper">
-<a href="index-2.html">
+<a href="index-2.php">
 <img src="assets/logo/100x100.png" alt>
 </a>
 </div>
@@ -91,28 +91,28 @@
 </label>
 
 <ul id="main-menu" class="sm sm-mint">
-<li><a href="index.html">Home</a>
+<li><a href="index.php">Home</a>
 
 </li>
-<li><a href="about-us.html">About Us</a></li>
-<li><a href="service.html">Service</a></li>
+<li><a href="about-us.php">About Us</a></li>
+<li><a href="service.php">Service</a></li>
 <li><a href="">Gallery</a>
 <ul>
-<li><a href="birthday.html">Birthday</a></li>
-<li><a href="chori.html">Chori</a></li>
-<li><a href="decoration.html">Decoration</a></li>
-<li><a href="haldi.html">Haldi</a></li>
-<li><a href="swimmingpool.html">Swimming Pool</a></li>
-<li><a href="partyplot.html">Party Plot</a></li>
+<li><a href="birthday.php">Birthday</a></li>
+<li><a href="chori.php">Chori</a></li>
+<li><a href="decoration.php">Decoration</a></li>
+<li><a href="haldi.php">Haldi</a></li>
+<li><a href="swimmingpool.php">Swimming Pool</a></li>
+<li><a href="partyplot.php">Party Plot</a></li>
 </ul>
 </li>
-<!-- <li><a href="blog.html">Blog</a>
+<!-- <li><a href="blog.php">Blog</a>
 <ul>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="blog-details.html">Blog Details</a></li>
+<li><a href="blog.php">Blog</a></li>
+<li><a href="blog-details.php">Blog Details</a></li>
 </ul>
 </li> -->
-<li><a href="contact.html">Contact</a></li>
+<li><a href="contact.php">Contact</a></li>
 <li class="tel"><a href="tel:">+91 8511055545</a></li>
 </ul>
 </nav>
@@ -133,7 +133,7 @@
     <span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
     </div>
     <div class="sp-logo">
-    <a href="index-2.html">
+    <a href="index-2.php">
     <img src="assets/logo/100x100.png" alt>
     </a>
     </div>
@@ -148,7 +148,7 @@
     <img src="assets/img/blog/recent-blog1.jpg" alt>
     </div>
     <div class="ssrp-text">
-    <a href="blog-details.html">Capturing the Essence of Home in Ultra-Modern</a>
+    <a href="blog-details.php">Capturing the Essence of Home in Ultra-Modern</a>
     <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>01 Dec 2020 </span>
     </div>
     </div>
@@ -157,7 +157,7 @@
     <img src="assets/img/blog/recent-blog2.jpg" alt>
     </div>
     <div class="ssrp-text">
-    <a href="blog-details.html">Renovation Architecture
+    <a href="blog-details.php">Renovation Architecture
     and Design </a>
     <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>25 Nov 2020 </span>
     </div>
@@ -167,7 +167,7 @@
     <img src="assets/img/blog/recent-blog3.jpg" alt>
     </div>
     <div class="ssrp-text">
-    <a href="blog-details.html">Architechture Reclaimed
+    <a href="blog-details.php">Architechture Reclaimed
     Wolid for the Modern</a>
     <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>30 Nov 2020 </span>
     </div>
@@ -221,7 +221,7 @@ Interior Design<br/>
 to
 launch a custom branded website for your next project. Come to the table
 </rs-layer>
-<a id="slider-22-slide-33-layer-4" class="rs-layer hero-btn rev-btn" href="project.html" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:570px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="rX:0deg;rY:0deg;rZ:0deg;bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;iC:true;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;cursor:pointer;">Discover
+<a id="slider-22-slide-33-layer-4" class="rs-layer hero-btn rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:570px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="rX:0deg;rY:0deg;rZ:0deg;bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;iC:true;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;cursor:pointer;">Discover
 More
 </a>
 
@@ -256,7 +256,7 @@ Exterior Design<br/>
 to
 launch a custom branded website for your next project. Come to the table
 </rs-layer>
-<a id="slider-22-slide-36-layer-4" class="rs-layer rev-btn" href="project.html" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
+<a id="slider-22-slide-36-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
 More
 </a>
 
@@ -291,7 +291,7 @@ Living Room Design<br/>
 to
 launch a custom branded website for your next project. Come to the table
 </rs-layer>
-<a id="slider-22-slide-37-layer-4" class="rs-layer rev-btn" href="project.html" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:12;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
+<a id="slider-22-slide-37-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:12;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
 More
 </a>
 
@@ -353,7 +353,7 @@ specialists, a
 good design is a
 space that matches with the lifestyle. According to the opinion specialists, a good design.
 </p>
-<a href="about-us.html" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
+<a href="about-us.php" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
 </div>
 </div>
 </div>
@@ -374,7 +374,7 @@ partners who we know will help us create
 added value for your project. As well as bringing together the public and private sectors,
 we make sector-overarching links to gather knowledge and to learn from each other. The way
 we undertake projects is based on permanently</p>
-<a href="service.html" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
+<a href="service.php" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
 </div>
 </div>
 <div class="col-md-5 offset-md-2">
@@ -454,7 +454,7 @@ THE MARKET</h3>
 <h3>Introgen Abultreso</h3>
 <p>Dedisgn, House</p>
 </div>
-<a href="project.html"> <i class="flaticon-add rp-icon"></i></a>
+<a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
 </div>
 </div>
 <div class="item">
@@ -466,7 +466,7 @@ THE MARKET</h3>
 <h3>Introgen Abultreso</h3>
 <p>Dedisgn, House</p>
 </div>
-<a href="project.html"> <i class="flaticon-add rp-icon"></i></a>
+<a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
 </div>
 </div>
 <div class="item">
@@ -478,7 +478,7 @@ THE MARKET</h3>
 <h3>Introgen Abultreso</h3>
 <p>Dedisgn, House</p>
 </div>
-<a href="project.html"> <i class="flaticon-add rp-icon"></i></a>
+<a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
 </div>
 </div>
 <div class="item">
@@ -490,7 +490,7 @@ THE MARKET</h3>
 <h3>Introgen Abultreso</h3>
 <p>Dedisgn, House</p>
 </div>
-<a href="project.html"><i class="flaticon-add rp-icon"></i></a>
+<a href="project.php"><i class="flaticon-add rp-icon"></i></a>
 </div>
 </div>
 </div>
@@ -597,7 +597,7 @@ brought in the extra finishing touches.</p>
 <div class="single-blog">
 <img src="assets/Final_images/blog_image_1.jpg" alt>
 <div class="sb-content">
-<a href="blog.html">
+<a href="blog.php">
 <h3>Capturing the Essence of
 Home in Ultra-Modern </h3>
 </a>
@@ -609,7 +609,7 @@ Home in Ultra-Modern </h3>
 <div class="single-blog">
 <img src="assets/Final_images/blog_image_2.jpg" alt>
 <div class="sb-content">
-<a href="blog.html">
+<a href="blog.php">
 <h3>Renovation Architecture
 and Design </h3>
 </a>
@@ -621,7 +621,7 @@ and Design </h3>
 <div class="single-blog">
 <img src="assets/Final_images/blog_image_3.jpg" alt>
 <div class="sb-content">
-<a href="blog.html">
+<a href="blog.php">
 <h3>Architechture Reclaimed
 Wolid for the Modern </h3>
 </a>

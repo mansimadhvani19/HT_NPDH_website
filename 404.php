@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:13 GMT -->
+<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/404.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:13 GMT -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,7 +65,7 @@
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
-<a href="rtl/404.html">View RTL Verson</a>
+<a href="rtl/404.php">View RTL Verson</a>
 </div>
 </div>
 
@@ -75,7 +75,7 @@
 <div class="row">
 <div class="col-4 col-md-4">
 <div class="logo-wrapper">
-<a href="index-2.html">
+<a href="index-2.php">
 <img src="assets/img/logo.png" alt>
 </a>
 </div>
@@ -91,29 +91,29 @@
 </label>
 
 <ul id="main-menu" class="sm sm-mint">
-<li><a href="index-2.html">Home</a>
+<li><a href="index-2.php">Home</a>
 <ul>
-<li><a href="index-2.html">Home 1</a></li>
-<li><a href="index-3.html">Home 2</a></li>
+<li><a href="index-2.php">Home 1</a></li>
+<li><a href="index-3.php">Home 2</a></li>
 </ul>
 </li>
-<li><a href="about-us.html">About Us</a></li>
-<li><a href="service.html">Service</a></li>
-<li><a href="project.html">Pages</a>
+<li><a href="about-us.php">About Us</a></li>
+<li><a href="service.php">Service</a></li>
+<li><a href="project.php">Pages</a>
 <ul>
-<li><a href="project.html">Project</a></li>
-<li><a href="faq.html">Faq</a></li>
-<li><a href="404.html">404</a></li>
-<li><a href="commingsoon.html">Commingsoon</a></li>
+<li><a href="project.php">Project</a></li>
+<li><a href="faq.php">Faq</a></li>
+<li><a href="404.php">404</a></li>
+<li><a href="commingsoon.php">Commingsoon</a></li>
 </ul>
 </li>
-<li><a href="blog.html">Blog</a>
+<li><a href="blog.php">Blog</a>
 <ul>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="blog-details.html">Blog Details</a></li>
+<li><a href="blog.php">Blog</a></li>
+<li><a href="blog-details.php">Blog Details</a></li>
 </ul>
 </li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="contact.php">Contact</a></li>
 <li class="tel"><a href="tel:">+8 (888) 674-25-60</a></li>
 </ul>
 </nav>
@@ -134,7 +134,7 @@
 <span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
 </div>
 <div class="sp-logo">
-<a href="index-2.html">
+<a href="index-2.php">
 <img src="assets/img/logo-2.png" alt>
 </a>
 </div>
@@ -149,7 +149,7 @@ specialists, a good design with the lifestyle</p>
 <img src="assets/img/blog/recent-blog1.jpg" alt>
 </div>
 <div class="ssrp-text">
-<a href="blog-details.html">Capturing the Essence of Home in Ultra-Modern</a>
+<a href="blog-details.php">Capturing the Essence of Home in Ultra-Modern</a>
 <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>01 Dec 2020 </span>
 </div>
 </div>
@@ -158,7 +158,7 @@ specialists, a good design with the lifestyle</p>
 <img src="assets/img/blog/recent-blog2.jpg" alt>
 </div>
 <div class="ssrp-text">
-<a href="blog-details.html">Renovation Architecture
+<a href="blog-details.php">Renovation Architecture
 and Design </a>
 <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>25 Nov 2020 </span>
 </div>
@@ -168,7 +168,7 @@ and Design </a>
 <img src="assets/img/blog/recent-blog3.jpg" alt>
 </div>
 <div class="ssrp-text">
-<a href="blog-details.html">Architechture Reclaimed
+<a href="blog-details.php">Architechture Reclaimed
 Wolid for the Modern</a>
 <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>30 Nov 2020 </span>
 </div>
@@ -305,5 +305,5 @@ New York, USA</p>
 <script src="assets/js/theme.js"></script>
 </body>
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
+<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/404.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
 </html>

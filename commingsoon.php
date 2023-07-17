@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/commingsoon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
+<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/commingsoon.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,7 +65,7 @@
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
-<a href="rtl/commingsoon.html">View RTL Verson</a>
+<a href="rtl/commingsoon.php">View RTL Verson</a>
 </div>
 </div>
 
@@ -145,5 +145,5 @@ information. Subscribe to our newsletter to stay updated on our progress</p>
 <script src="assets/js/theme.js"></script>
 </body>
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/commingsoon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
+<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/commingsoon.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
 </html>

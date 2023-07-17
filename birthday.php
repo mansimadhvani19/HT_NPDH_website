@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
+<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/blog.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:14 GMT -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,7 +65,7 @@
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
-<a href="rtl/blog.html">View RTL Verson</a>
+<a href="rtl/blog.php">View RTL Verson</a>
 </div>
 </div>
 
@@ -75,7 +75,7 @@
     <div class="row">
     <div class="col-4 col-md-4">
     <div class="logo-wrapper">
-    <a href="index-2.html">
+    <a href="index-2.php">
     <img src="assets/logo/100x100.png" alt>
     </a>
     </div>
@@ -91,28 +91,28 @@
     </label>
     
     <ul id="main-menu" class="sm sm-mint">
-        <li><a href="index.html">Home</a>
+        <li><a href="index.php">Home</a>
         
         </li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="service.html">Service</a></li>
+        <li><a href="about-us.php">About Us</a></li>
+        <li><a href="service.php">Service</a></li>
         <li><a href="">Gallery</a>
         <ul>
-        <li><a href="birthday.html">Birthday</a></li>
-        <li><a href="chori.html">Chori</a></li>
-        <li><a href="decoration.html">Decoration</a></li>
-        <li><a href="haldi.html">Haldi</a></li>
-        <li><a href="swimmingpool.html">Swimming Pool</a></li>
-        <li><a href="partyplot.html">Party Plot</a></li>
+        <li><a href="birthday.php">Birthday</a></li>
+        <li><a href="chori.php">Chori</a></li>
+        <li><a href="decoration.php">Decoration</a></li>
+        <li><a href="haldi.php">Haldi</a></li>
+        <li><a href="swimmingpool.php">Swimming Pool</a></li>
+        <li><a href="partyplot.php">Party Plot</a></li>
         </ul>
         </li>
-        <!-- <li><a href="blog.html">Blog</a>
+        <!-- <li><a href="blog.php">Blog</a>
         <ul>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="blog-details.html">Blog Details</a></li>
+        <li><a href="blog.php">Blog</a></li>
+        <li><a href="blog-details.php">Blog Details</a></li>
         </ul>
         </li> -->
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.php">Contact</a></li>
         <li class="tel"><a href="tel:">+91 8511055545</a></li>
         </ul>
     </nav>
@@ -133,7 +133,7 @@
         <span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
         </div>
         <div class="sp-logo">
-        <a href="index-2.html">
+        <a href="index-2.php">
         <img src="assets/logo/100x100.png" alt>
         </a>
         </div>
@@ -148,7 +148,7 @@
         <img src="assets/img/blog/recent-blog1.jpg" alt>
         </div>
         <div class="ssrp-text">
-        <a href="blog-details.html">Capturing the Essence of Home in Ultra-Modern</a>
+        <a href="blog-details.php">Capturing the Essence of Home in Ultra-Modern</a>
         <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>01 Dec 2020 </span>
         </div>
         </div>
@@ -157,7 +157,7 @@
         <img src="assets/img/blog/recent-blog2.jpg" alt>
         </div>
         <div class="ssrp-text">
-        <a href="blog-details.html">Renovation Architecture
+        <a href="blog-details.php">Renovation Architecture
         and Design </a>
         <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>25 Nov 2020 </span>
         </div>
@@ -167,7 +167,7 @@
         <img src="assets/img/blog/recent-blog3.jpg" alt>
         </div>
         <div class="ssrp-text">
-        <a href="blog-details.html">Architechture Reclaimed
+        <a href="blog-details.php">Architechture Reclaimed
         Wolid for the Modern</a>
         <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>30 Nov 2020 </span>
         </div>
@@ -407,5 +407,5 @@ Dream: Few Tips</h3>
 <script src="assets/js/theme.js"></script>
 </body>
 
-<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:17 GMT -->
+<!-- Mirrored from demo.voidcoders.com/htmldemo/maxtreo/blog.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jul 2023 12:32:17 GMT -->
 </html>
