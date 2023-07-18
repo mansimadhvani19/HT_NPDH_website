@@ -60,151 +60,31 @@
 </button>
 
 
-<div class="page-settings">
+<!-- <div class="page-settings">
 <div class="psg-icon">
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
 <a href="rtl/service.php">View RTL Verson</a>
 </div>
-</div>
+</div> -->
 
 
-<header class="mextreo-header-area mha-inner">
-    <div class="container c-fulid-max">
-    <div class="row">
-    <div class="col-4 col-md-4">
-    <div class="logo-wrapper">
-    <a href="index-2.php">
-    <img src="assets/logo/100x100.png" alt>
-    </a>
-    </div>
-    </div>
-    <div class="col-8 col-md-8">
-    <div class="mextreo-menu">
-    <div class="mxm-wrspper">
-    <nav class="main-nav" role="navigation">
-    
-    <input id="main-menu-state" type="checkbox" />
-    <label class="main-menu-btn" for="main-menu-state">
-    <span class="main-menu-btn-icon"></span>
-    </label>
-    
-    <ul id="main-menu" class="sm sm-mint">
-        <li><a href="index.php">Home</a>
-        
-        </li>
-        <li><a href="about-us.php">About Us</a></li>
-        <li><a href="service.php">Service</a></li>
-        <li><a href="">Gallery</a>
-        <ul>
-        <li><a href="birthday.php">Birthday</a></li>
-        <li><a href="choei.php">Chori</a></li>
-        <li><a href="decoration.php">Decoration</a></li>
-        <li><a href="haldi.php">Haldi</a></li>
-        <li><a href="swimmingpool.php">Swimming Pool</a></li>
-        <li><a href="partyplot.php">Party Plot</a></li>
-        </ul>
-        </li>
-        <!-- <li><a href="blog.php">Blog</a>
-        <ul>
-        <li><a href="blog.php">Blog</a></li>
-        <li><a href="blog-details.php">Blog Details</a></li>
-        </ul>
-        </li> -->
-        <li><a href="contact.php">Contact</a></li>
-        <li class="tel"><a href="tel:">+91 8511055545</a></li>
-        </ul>
-    </nav>
-    </div>
-    <div class="side-ber black">
-    <button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </header>
+<!-- main header -->
+<?php include 'header.php'; ?>
+        <!-- main-header end -->
 
-<div class="side-panel hide">
-<div class="sp-box">
-<div class="sp-close">
-<span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-</div>
-<div class="sp-logo">
-<a href="index-2.php">
-<img src="assets/logo/100x100.png" alt>
-</a>
-</div>
-<div class="sp-text">
-<p>Design affects human. It changes the view of life and the self-image. According to the opinion
-specialists, a good design with the lifestyle</p>
-</div>
-<div class="sp-recent-post">
-<h4>Recent Post</h4>
-<div class="sp-single-rp">
-<div class="ssrp-img">
-<img src="assets/img/blog/recent-blog1.jpg" alt>
-</div>
-<div class="ssrp-text">
-<a href="blog-details.php">Capturing the Essence of Home in Ultra-Modern</a>
-<span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>01 Dec 2020 </span>
-</div>
-</div>
-<div class="sp-single-rp">
-<div class="ssrp-img">
-<img src="assets/img/blog/recent-blog2.jpg" alt>
-</div>
-<div class="ssrp-text">
-<a href="blog-details.php">Renovation Architecture
-and Design </a>
-<span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>25 Nov 2020 </span>
-</div>
-</div>
-<div class="sp-single-rp">
-<div class="ssrp-img">
-<img src="assets/img/blog/recent-blog3.jpg" alt>
-</div>
-<div class="ssrp-text">
-<a href="blog-details.php">Architechture Reclaimed
-Wolid for the Modern</a>
-<span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>30 Nov 2020 </span>
-</div>
-</div>
-</div>
-<div class="sp-contact">
-<h4>Contact</h4>
-<div class="spc-text">
-<p>M-87/1035 panchvati appartment Sola road Naranpura Ahmedabad</p>
-<h5>Phone:</h5>
-<p>+91 8511055545</p>
-<h5>Email:</h5>
-<p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e98c84888085a98c91888499858cc78a8684">npdhevents1980@gmail.com</a></p>
-</div>
-</div>
-<div class="sp-social">
-<ul class="social-list">
-<li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a>
-</li>
-<li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a>
-</li>
-<li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a>
-</li>
-</ul>
-</div>
-</div>
-</div>
+<?php include 'side_panel.php'; ?>
 
 
-<div class="hero-social">
+<!-- <div class="hero-social">
 <ul>
 <li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
 <li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a></li>
 <li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a></li>
 <li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a></li>
 </ul>
-</div>
+</div> -->
 
 
 <section class="mextreo-hero inner mar-bot-50">
@@ -213,21 +93,19 @@ Wolid for the Modern</a>
 <div class="col-md-6">
 <div class="hero-content">
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">our Service</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000">We Offer Professional
-Interior Solutions</h2>
-<p data-aos="fade-up" data-aos-duration="2500">Every client of Victoria Bell Design is unique.
-Our personalized advice, recommendations and services are customized to your specific needs.
+<h2 data-aos="fade-up" data-aos-duration="2000">We offer professional unforgettable event experiences.</h2>
+<p data-aos="fade-up" data-aos-duration="2500">At NPDH Events, we are committed to delivering exceptional events of all kinds, tailored to your vision and needs. Let us take care of every detail, so you can enjoy the celebration to the fullest.
 </p>
-<p data-aos="fade-up" data-aos-duration="3000">We are a full-service interior design firm with
+<!-- <p data-aos="fade-up" data-aos-duration="3000">We are a full-service interior design firm with
 expertise in custom-designed rooms and homes, from top to bottom. Our services include, but
-are not limited to:</p>
+are not limited to:</p> -->
 <ul>
-<li data-aos="fade-up" data-aos-duration="1700">New construction</li>
-<li data-aos="fade-up" data-aos-duration="1800">Interior renovation</li>
-<li data-aos="fade-up" data-aos-duration="2100">Space Planning</li>
-<li data-aos="fade-up" data-aos-duration="2500">Kitchen & bath design concepts</li>
-<li data-aos="fade-up" data-aos-duration="2800">Paint & material selection</li>
-<li data-aos="fade-up" data-aos-duration="3000">Textiles selection</li>
+<li data-aos="fade-up" data-aos-duration="1700">Corporate Events</li>
+<li data-aos="fade-up" data-aos-duration="1800">Weddings & Celebrations</li>
+<li data-aos="fade-up" data-aos-duration="2100">Social Gatherings</li>
+<li data-aos="fade-up" data-aos-duration="2500">Themed Parties & Entertainment</li>
+<li data-aos="fade-up" data-aos-duration="2800">Destination Events</li>
+<li data-aos="fade-up" data-aos-duration="3000">Gala Dinners & Awards Nights</li>
 </ul>
 </div>
 </div>
@@ -277,18 +155,10 @@ craftsman, Erika has a thorough </p>
 <div class="row">
 <div class="col-md-5">
 <div class="ab-interior-content">
-<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2500">interior design</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000">Interior</h2>
-<p data-aos="fade-up" data-aos-duration="2500">Inspired by her father, a talented master
-craftsman, Erika has a thorough understanding of timeless design, custom furniture and the
-construction of fine hand crafted furnishings. Erika’s affinity for classical forms and
-close attention to detail, quality and functionality permeates sophisticated living
-environments. Often her projects are new developments where the clients are looking for a
-complete luxury experience while also increasing the value of their new homes through
-capital improvements.</p>
-<p data-aos="fade-up" data-aos-duration="3000">Erika’s clients value her collaborative approach,
-her expertise on capital improvement and her ability to translate her client’s lifestyle and
-preferences into one of a kind tailored home.</p>
+<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2500">Decoration</h6>
+<h2 data-aos="fade-up" data-aos-duration="2000">Wedding Entry Gate</h2>
+<p data-aos="fade-up" data-aos-duration="2500">A magical gateway to forever awaits you at our enchanting entry gate. Adorned with lush greenery, delicate flowers, and whimsical decor, our wedding entry welcomes you to a fairy-tale celebration. Step through our lovingly crafted archway, where dreams come to life, and embark on a journey of love and togetherness. The mesmerizing ambiance sets the tone for an unforgettable day filled with joy, laughter, and cherished memories. Let our beautifully decorated entry gate be the first glimpse of the magic that awaits you, as you celebrate love surrounded by nature's splendor and elegance.</p>
+<p data-aos="fade-up" data-aos-duration="3000">A team of skilled designers has thoughtfully curated this entry gate, combining elements of romance and sophistication. The captivating interplay of colors, lights, and textures creates a picture-perfect backdrop for your special day. </p>
 </div>
 </div>
 <div class="col-md-7">
@@ -314,19 +184,11 @@ preferences into one of a kind tailored home.</p>
 </div>
 <div class="col-md-5 offset-md-1 order-md-2 order-1">
 <div class="m-about-content">
-<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">product design</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000">Product</h2>
-<p data-aos="fade-up" data-aos-duration="2500">Inspired by her father, a talented master
-craftsman, Erika has a thorough understanding of timeless design, custom furniture and the
-construction of fine hand crafted furnishings. Erika’s affinity for classical forms and
-close attention to detail, quality and functionality permeates sophisticated living
-environments. Often her projects are new developments where the clients are looking for a
-complete luxury experience while also increasing the value of their new homes through
-capital improvements.</p>
+<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">Decoration</h6>
+<h2 data-aos="fade-up" data-aos-duration="2000">Stage Decor</h2>
+<p data-aos="fade-up" data-aos-duration="2500">Behold a captivating stage, an exquisite canvas of love and celebration. Our wedding stage decoration is a masterpiece of elegance, adorned with cascading blooms, ethereal drapery, and glittering lights. The enchanting backdrop sets the perfect ambiance for your special moments, while the intricate details reflect your unique style and story. Embrace the spotlight of love as you exchange vows, surrounded by the beauty of our thoughtfully curated stage. Every glance, every smile, and every heartfelt word will be accentuated by the grace and allure of this dreamlike setting. Let our stage decoration be the centerpiece of your cherished day, where two hearts unite, and the magic of love flourishes in the presence of your loved ones.</p>
 <p data-aos="fade-up" data-aos-duration="3000">
-Erika’s clients value her collaborative approach, her expertise on capital improvement and
-her ability to translate her client’s lifestyle and preferences into one of a kind tailored
-home. Inspired by her father, a talented master craftsman, Erika has a thorough </p>
+Our skilled team of designers ensures that every detail is immaculately crafted to evoke emotions and create lasting impressions. As you stand on this enchanting stage, bask in the warmth of love, and relish the joyous applause of your dear ones. </p>
 </div>
 </div>
 </div>
@@ -334,60 +196,9 @@ home. Inspired by her father, a talented master craftsman, Erika has a thorough 
 </section>
 
 
-<section class="footer-details" data-aos="fade-up" data-aos-duration="3000">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12">
-    <div class="subscribe">
-    <form>
-    <input type="text" class="form-control" placeholder=" Enter your email address....." onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email address.....'">
-    <button type="submit" class="btn btn-primary sub-btn"> Subscribe </button>
-    </form>
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="footer-information">
-    <div class="single-info">
-    <h5>Address:</h5>
-    <p>M-87/1035 panchvati appartment Sola road Naranpura Ahmedabad</p>
-    </div>
-    <div class="single-info">
-    <h5>Phone:</h5>
-    <p>+91 8511055545</p>
-    <p>+91 9825795826</p>
-    </div>
-    <div class="single-info">
-    <h5>Email:</h5>
-    <p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="82e3efe3ebeec2efe7faf6f0e7edace1edef">npdhevents1980@gmail.com</a></p>
-    <p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="49272c3e2428202509242c313d3b2c26672a2624">npdhevents1980@gmail.com</a></p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-
-
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-md-2">
-<div class="footer-logo"><img src="assets/img/logo-2.png" alt></div>
-</div>
-<div class="col-md-10">
-<div class="footer-nav">
-<ul>
-<li>Copyright © 2020! <a href>VoidCoders!</a></li>
-<li>|</li>
-<li><a href>Privacy Policy</a></li>
-<li>|</li>
-<li><a href>Terms of Use</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</footer>
+        <!-- main-footer -->
+        <?php include 'footer.php'; ?>
+        <!-- main-footer end -->
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

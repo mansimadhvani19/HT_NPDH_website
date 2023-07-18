@@ -60,72 +60,19 @@
 </button>
 
 
-<div class="page-settings">
+<!-- <div class="page-settings">
 <div class="psg-icon">
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
 <a href="rtl/404.php">View RTL Verson</a>
 </div>
-</div>
+</div> -->
 
 
-<header class="mextreo-header-area mha-inner">
-<div class="container c-fulid-max">
-<div class="row">
-<div class="col-4 col-md-4">
-<div class="logo-wrapper">
-<a href="index-2.php">
-<img src="assets/img/logo.png" alt>
-</a>
-</div>
-</div>
-<div class="col-8 col-md-8">
-<div class="mextreo-menu">
-<div class="mxm-wrspper">
-<nav class="main-nav" role="navigation">
-
-<input id="main-menu-state" type="checkbox" />
-<label class="main-menu-btn" for="main-menu-state">
-<span class="main-menu-btn-icon"></span>
-</label>
-
-<ul id="main-menu" class="sm sm-mint">
-<li><a href="index-2.php">Home</a>
-<ul>
-<li><a href="index-2.php">Home 1</a></li>
-<li><a href="index-3.php">Home 2</a></li>
-</ul>
-</li>
-<li><a href="about-us.php">About Us</a></li>
-<li><a href="service.php">Service</a></li>
-<li><a href="project.php">Pages</a>
-<ul>
-<li><a href="project.php">Project</a></li>
-<li><a href="faq.php">Faq</a></li>
-<li><a href="404.php">404</a></li>
-<li><a href="commingsoon.php">Commingsoon</a></li>
-</ul>
-</li>
-<li><a href="blog.php">Blog</a>
-<ul>
-<li><a href="blog.php">Blog</a></li>
-<li><a href="blog-details.php">Blog Details</a></li>
-</ul>
-</li>
-<li><a href="contact.php">Contact</a></li>
-<li class="tel"><a href="tel:">+8 (888) 674-25-60</a></li>
-</ul>
-</nav>
-</div>
-<div class="side-ber black">
-<button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</header>
+<!-- main header -->
+<?php include 'header.php'; ?>
+        <!-- main-header end -->
 
 
 <div class="side-panel hide">
@@ -134,7 +81,7 @@
 <span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
 </div>
 <div class="sp-logo">
-<a href="index-2.php">
+<a href="index.php">
 <img src="assets/img/logo-2.png" alt>
 </a>
 </div>

@@ -59,14 +59,14 @@
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
-<div class="page-settings">
+<!-- <div class="page-settings">
 <div class="psg-icon">
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
 <a href="rtl/index.php">View RTL Verson</a>
 </div>
-</div>
+</div> -->
 
 
 
@@ -75,7 +75,7 @@
 <div class="row">
 <div class="col-4 col-md-4">
 <div class="logo-wrapper">
-<a href="index-2.php">
+<a href="index.php">
 <img src="assets/logo/100x100.png" alt>
 </a>
 </div>
@@ -99,7 +99,7 @@
 <li><a href="">Gallery</a>
 <ul>
 <li><a href="birthday.php">Birthday</a></li>
-<li><a href="chori.php">Chori</a></li>
+<li><a href="chori.php">chori</a></li>
 <li><a href="decoration.php">Decoration</a></li>
 <li><a href="haldi.php">Haldi</a></li>
 <li><a href="swimmingpool.php">Swimming Pool</a></li>
@@ -127,75 +127,7 @@
 </header>
 
 
-<div class="side-panel hide">
-    <div class="sp-box">
-    <div class="sp-close">
-    <span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-    </div>
-    <div class="sp-logo">
-    <a href="index-2.php">
-    <img src="assets/logo/100x100.png" alt>
-    </a>
-    </div>
-    <div class="sp-text">
-    <p>Design affects human. It changes the view of life and the self-image. According to the opinion
-    specialists, a good design with the lifestyle</p>
-    </div>
-    <div class="sp-recent-post">
-    <h4>Recent Post</h4>
-    <div class="sp-single-rp">
-    <div class="ssrp-img">
-    <img src="assets/img/blog/recent-blog1.jpg" alt>
-    </div>
-    <div class="ssrp-text">
-    <a href="blog-details.php">Capturing the Essence of Home in Ultra-Modern</a>
-    <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>01 Dec 2020 </span>
-    </div>
-    </div>
-    <div class="sp-single-rp">
-    <div class="ssrp-img">
-    <img src="assets/img/blog/recent-blog2.jpg" alt>
-    </div>
-    <div class="ssrp-text">
-    <a href="blog-details.php">Renovation Architecture
-    and Design </a>
-    <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>25 Nov 2020 </span>
-    </div>
-    </div>
-    <div class="sp-single-rp">
-    <div class="ssrp-img">
-    <img src="assets/img/blog/recent-blog3.jpg" alt>
-    </div>
-    <div class="ssrp-text">
-    <a href="blog-details.php">Architechture Reclaimed
-    Wolid for the Modern</a>
-    <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>30 Nov 2020 </span>
-    </div>
-    </div>
-    </div>
-    <div class="sp-contact">
-    <h4>Contact</h4>
-    <div class="spc-text">
-    <p>M-87/1035 panchvati appartment Sola road Naranpura Ahmedabad</p>
-    <h5>Phone:</h5>
-    <p>+91 8511055545</p>
-    <h5>Email:</h5>
-    <p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e98c84888085a98c91888499858cc78a8684">npdhevents1980@gmail.com</a></p>
-    </div>
-    </div>
-    <div class="sp-social">
-    <ul class="social-list">
-    <li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
-    <li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a>
-    </li>
-    <li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a>
-    </li>
-    <li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a>
-    </li>
-    </ul>
-    </div>
-    </div>
-    </div>
+<?php include 'side_panel.php'; ?>
 
 
 <section class="mextreo-hero">
@@ -214,32 +146,31 @@
 </rs-layer>
 
 <rs-layer id="slider-22-slide-33-layer-1" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:3px;y:343px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;st:230;sp:1500;sR:230;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3270;" data-loop_999="crd:t;rA:1;" style="z-index:11;font-family:Chronicle Display;text-transform:capitalize;">
-Interior Design<br/>
+Your Vision, Our Expertise.<br/>
 </rs-layer>
 
-<rs-layer id="slider-22-slide-33-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
+<!-- <rs-layer id="slider-22-slide-33-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
 to
 launch a custom branded website for your next project. Come to the table
-</rs-layer>
-<a id="slider-22-slide-33-layer-4" class="rs-layer hero-btn rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:570px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="rX:0deg;rY:0deg;rZ:0deg;bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;iC:true;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;cursor:pointer;">Discover
+</rs-layer> -->
+<!-- <a id="slider-22-slide-33-layer-4" class="rs-layer hero-btn rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:570px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="rX:0deg;rY:0deg;rZ:0deg;bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;iC:true;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;cursor:pointer;">Discover
 More
-</a>
+</a> -->
 
 <rs-layer id="slider-22-slide-33-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
-Create
-Your <br/>
+Crafting Perfection: <br/>
 </rs-layer>
-<a id="slider-22-slide-33-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
-</a>
-<a id="slider-22-slide-33-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
-</a>
-<a id="slider-22-slide-33-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
-</a>
-<a id="slider-22-slide-33-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
-</a>
+<!-- <a id="slider-22-slide-33-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
+</a> -->
+<!-- <a id="slider-22-slide-33-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
+</a> -->
+<!-- <a id="slider-22-slide-33-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
+</a> -->
+<!-- <a id="slider-22-slide-33-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
+</a> -->
 
-<rs-layer id="slider-22-slide-33-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:5;background-color:#dcbc95;">
-</rs-layer>
+<!-- <rs-layer id="slider-22-slide-33-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:5;background-color:#dcbc95;">
+</rs-layer> -->
 
 </rs-slide>
 <rs-slide data-key="rs-36" data-title="Slide" data-thumb="assets/slide1-2-50x100.jpg" data-anim="ei:d,d;eo:d,d;s:1000,d;r:0,0;t:zoomout,scaledownfromright;sl:d,d;" data-sloop="s:4000;e:9000;">
@@ -249,32 +180,31 @@ Your <br/>
 </rs-layer>
 
 <rs-layer id="slider-22-slide-36-layer-1" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:3px;y:343px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;st:230;sp:1500;sR:230;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3270;" data-loop_999="crd:t;rA:1;" style="z-index:11;font-family:Chronicle Display;text-transform:capitalize;">
-Exterior Design<br/>
+Memories Unforgettable.<br/>
 </rs-layer>
 
-<rs-layer id="slider-22-slide-36-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
+<!-- <rs-layer id="slider-22-slide-36-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
 to
 launch a custom branded website for your next project. Come to the table
-</rs-layer>
-<a id="slider-22-slide-36-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
+</rs-layer> -->
+<!-- <a id="slider-22-slide-36-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
 More
-</a>
+</a> -->
 
 <rs-layer id="slider-22-slide-36-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
-Create
-Your <br/>
+Events Redefined,<br/>
 </rs-layer>
-<a id="slider-22-slide-36-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
-</a>
-<a id="slider-22-slide-36-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
-</a>
-<a id="slider-22-slide-36-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
-</a>
-<a id="slider-22-slide-36-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
-</a>
+<!-- <a id="slider-22-slide-36-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
+</a> -->
+<!-- <a id="slider-22-slide-36-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
+</a> -->
+<!-- <a id="slider-22-slide-36-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
+</a> -->
+<!-- <a id="slider-22-slide-36-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
+</a> -->
 
-<rs-layer id="slider-22-slide-36-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:10;background-color:#dcbc95;">
-</rs-layer>
+<!-- <rs-layer id="slider-22-slide-36-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:10;background-color:#dcbc95;">
+</rs-layer> -->
 
 </rs-slide>
 <rs-slide data-key="rs-37" data-title="Slide" data-thumb="assets/slide4-50x100.jpg" data-anim="ei:d,d;eo:d,d;s:1000,d;r:0,0;t:zoomout,scaledownfromright;sl:d,d;" data-sloop="s:4000;e:9000;">
@@ -284,32 +214,31 @@ Your <br/>
 </rs-layer>
 
 <rs-layer id="slider-22-slide-37-layer-1" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:3px;y:343px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;st:230;sp:1500;sR:230;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3270;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
-Living Room Design<br/>
+We Deliver.<br/>
 </rs-layer>
 
-<rs-layer id="slider-22-slide-37-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3000;" style="z-index:11;font-family:Gotham Narrow;">Maxtrio is the most effective way
+<!-- <rs-layer id="slider-22-slide-37-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3000;" style="z-index:11;font-family:Gotham Narrow;">Maxtrio is the most effective way
 to
 launch a custom branded website for your next project. Come to the table
-</rs-layer>
-<a id="slider-22-slide-37-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:12;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
+</rs-layer> -->
+<!-- <a id="slider-22-slide-37-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:12;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
 More
-</a>
+</a> -->
 
 <rs-layer id="slider-22-slide-37-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:9;font-family:Chronicle Display;text-transform:capitalize;">
-Create
-Your <br/>
+From Imagination to Celebration: <br/>
 </rs-layer>
-<a id="slider-22-slide-37-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:13;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
-</a>
-<a id="slider-22-slide-37-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
-</a>
-<a id="slider-22-slide-37-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
-</a>
-<a id="slider-22-slide-37-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
-</a>
+<!-- <a id="slider-22-slide-37-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:13;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
+</a> -->
+<!-- <a id="slider-22-slide-37-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
+</a> -->
+<!-- <a id="slider-22-slide-37-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
+</a> -->
+<!-- <a id="slider-22-slide-37-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
+</a> -->
 
-<rs-layer id="slider-22-slide-37-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#dcbc95;" style="z-index:17;background-color:#dcbc95;">
-</rs-layer>
+<!-- <rs-layer id="slider-22-slide-37-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#dcbc95;" style="z-index:17;background-color:#dcbc95;">
+</rs-layer> -->
 
 </rs-slide>
 </rs-slides>
@@ -339,19 +268,10 @@ Your <br/>
 </div>
 <div class="col-md-5 offset-md-1 order-md-2 order-1">
 <div class="m-about-content">
-<h2 class="ab-tittle">MAXTREO</h2>
+<h2 class="ab-tittle">NPDH</h2>
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">ABOUT US</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000">Interior is The Will
-of An Epoch Maxtreo</h2>
-<p data-aos="fade-up" data-aos-duration="2500">Design affects human. It changes the view of life
-and the self-image. According to the
-opinion
-specialists, a good design is a space that matches with the lifestyle, habits and nature of
-the
-person. It changes the view of life and the self-image. According to the opinion
-specialists, a
-good design is a
-space that matches with the lifestyle. According to the opinion specialists, a good design.
+<h2 data-aos="fade-up" data-aos-duration="2000">Events Elevated, Memories Captivated.</h2>
+<p data-aos="fade-up" data-aos-duration="2500">NPDH Events is your ultimate partner in creating extraordinary events of all kinds. From corporate gatherings to weddings and everything in between, our expert team delivers seamless execution and innovative flair. With a passion for perfection, we craft experiences that leave a lasting impression. Let us transform your vision into reality, making each occasion an unforgettable celebration.
 </p>
 <a href="about-us.php" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
 </div>
@@ -369,11 +289,7 @@ space that matches with the lifestyle. According to the opinion specialists, a g
 <h2 class="ms-tittle">Service</h2>
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2000">What we do</h6>
 <h2 data-aos="fade-up" data-aos-duration="2000">Our Service</h2>
-<p data-aos="fade-up" data-aos-duration="2500">For each project we establish relationships with
-partners who we know will help us create
-added value for your project. As well as bringing together the public and private sectors,
-we make sector-overarching links to gather knowledge and to learn from each other. The way
-we undertake projects is based on permanently</p>
+<p data-aos="fade-up" data-aos-duration="2500">At NPDH Events, we are your comprehensive event solution. Our versatile services cover a wide spectrum of events, from corporate functions to private celebrations. We offer meticulous planning, creative design, flawless execution, and reliable coordination to ensure every detail is perfectly orchestrated. Our team of experts handles logistics, entertainment, venue selection, catering, and more, tailored to your unique preferences and budget. Whether it's a grand gala, an intimate gathering, or a corporate conference, trust us to elevate your event and leave a lasting impact on your guests.</p>
 <a href="service.php" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
 </div>
 </div>
@@ -415,7 +331,7 @@ we undertake projects is based on permanently</p>
 <div class="ws-content">
 <div class="ws-t-year">
 <img src="assets/img/about/success-y-bg.jpg" alt>
-<h2>10</h2>
+<h2>05</h2>
 </div>
 <h3>YEARS OF SUCCESSFUL
 WORK IN
@@ -598,8 +514,7 @@ brought in the extra finishing touches.</p>
 <img src="assets/Final_images/blog_image_1.jpg" alt>
 <div class="sb-content">
 <a href="blog.php">
-<h3>Capturing the Essence of
-Home in Ultra-Modern </h3>
+<h3>Flower-Adorned Welcome: Where Love Takes Root. </h3>
 </a>
 <p>Dec 15, 2020</p>
 </div>
@@ -610,8 +525,7 @@ Home in Ultra-Modern </h3>
 <img src="assets/Final_images/blog_image_2.jpg" alt>
 <div class="sb-content">
 <a href="blog.php">
-<h3>Renovation Architecture
-and Design </h3>
+<h3>Cushioned Elegance: Sit Back and Celebrate. </h3>
 </a>
 <p>Dec 25, 2020</p>
 </div>
@@ -622,8 +536,7 @@ and Design </h3>
 <img src="assets/Final_images/blog_image_3.jpg" alt>
 <div class="sb-content">
 <a href="blog.php">
-<h3>Architechture Reclaimed
-Wolid for the Modern </h3>
+<h3>Cherishing Love, Making Memories. </h3>
 </a>
 <p>Dec 10, 2020</p>
 </div>
@@ -634,7 +547,7 @@ Wolid for the Modern </h3>
 </section>
 
 
-<section class="partner" data-aos="fade-up" data-aos-duration="2500">
+<!-- <section class="partner" data-aos="fade-up" data-aos-duration="2500">
 <div class="container">
 <div class="single-partner"><img src="assets/img/partner/pertner1.jpg" alt></div>
 <div class="single-partner"><img src="assets/img/partner/pertner2.jpg" alt></div>
@@ -643,63 +556,12 @@ Wolid for the Modern </h3>
 <div class="single-partner"><img src="assets/img/partner/pertner5.jpg" alt></div>
 <div class="single-partner"><img src="assets/img/partner/pertner6.jpg" alt></div>
 </div>
-</section>
+</section> -->
 
 
-<section class="footer-details" data-aos="fade-up" data-aos-duration="3000">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<div class="subscribe">
-<form>
-<input type="text" class="form-control" placeholder=" Enter your email address....." onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email address.....'">
-<button type="submit" class="btn btn-primary sub-btn"> Subscribe </button>
-</form>
-</div>
-</div>
-<div class="col-md-12">
-<div class="footer-information">
-<div class="single-info">
-<h5>Address:</h5>
-<p>M-87/1035 panchvati appartment Sola road Naranpura Ahmedabad</p>
-</div>
-<div class="single-info">
-<h5>Phone:</h5>
-<p>+91 8511055545</p>
-<p>+91 9825795826</p>
-</div>
-<div class="single-info">
-<h5>Email:</h5>
-<p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="82e3efe3ebeec2efe7faf6f0e7edace1edef">npdhevents1980@gmail.com</a></p>
-<p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="49272c3e2428202509242c313d3b2c26672a2624">npdhevents1980@gmail.com</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-md-2">
-<div class="footer-logo"><img src="assets/img/logo-2.png" alt></div>
-</div>
-<div class="col-md-10">
-<div class="footer-nav">
-<ul>
-<li>Copyright © 2020! <a href="https://voidcoders.com/">VoidCoders!</a></li>
-<li>|</li>
-<li><a href>Privacy Policy</a></li>
-<li>|</li>
-<li><a href>Terms of Use</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</footer>
+<?php
+    include "footer.php";
+?>
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

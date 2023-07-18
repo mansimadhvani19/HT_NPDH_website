@@ -59,14 +59,14 @@
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
-<div class="page-settings">
+<!-- <div class="page-settings">
 <div class="psg-icon">
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
 <a href="rtl/index.php">View RTL Verson</a>
 </div>
-</div>
+</div> -->
 
 
 

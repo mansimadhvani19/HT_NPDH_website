@@ -428,7 +428,7 @@ input:focus {
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  background: #dcbc95;
+  background: #d0a15c;
   transition: 1s ease;
   border: none;
   -webkit-animation-name: scrollup;
@@ -439,7 +439,7 @@ input:focus {
   animation-delay: 2s;
   animation-timing-function: ease-in; }
   .scroll-top:hover {
-    background: #a3a3a3; }
+    background: #d0a15c; }
   .scroll-top:after {
     position: absolute;
     z-index: -1;
@@ -466,8 +466,8 @@ input:focus {
   transition: .4s ease; }
   .btn-1:hover {
     color: #ffffff;
-    background: #dcbc95;
-    border-color: #dcbc95; }
+    background: #d0a15c;
+    border-color: #d0a15c; }
 
 .dark {
   position: relative;
@@ -766,23 +766,25 @@ section.mextreo-hero.inner {
           font-family: "Gotham Narrow";
           font-weight: 500;
           border-bottom: 1px solid #c8c8c8; }
-      section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit {
-        position: relative;
-        margin-top: 40px;
-        background: transparent;
-        padding: 16px 40px;
-        font-family: "Gotham Narrow";
-        font-weight: 500;
-        color: #0c0c1f;
-        border: 1px solid #0c0c1f;
-        display: inline-block;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: .4s ease; }
+          section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit {
+            position: relative;
+            margin-top: 40px;
+            background: transparent;
+            /* padding: auto; */
+            font-family: "Gotham Narrow";
+            font-weight: 500;
+            color: #0c0c1f;
+            border: 1px solid #0c0c1f;
+            display: inline-block;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: .4s ease;
+        }
         section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit:hover {
           color: #ffffff;
-          background: #dcbc95;
-          border-color: #dcbc95; }
+          background: #d48d23;
+          border-color: #d0a15c; }
+          
   section.mextreo-hero.inner .hero-inner-img {
     position: relative;
     margin-left: 8%;
@@ -1887,8 +1889,8 @@ section.footer-details.dark2 {
 footer {
   position: relative;
   background: #f8f8f8;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 13px;
+  padding-bottom: 10px;
   border-top: 1px solid #c8c8c8; }
   footer .footer-nav {
     position: relative;

@@ -60,144 +60,23 @@
 </button>
 
 
-<div class="page-settings">
+<!-- <div class="page-settings">
 <div class="psg-icon">
 <i class="fa fa-cog" aria-hidden="true"></i>
 </div>
 <div class="pgs-box">
 <a href="rtl/blog.php">View RTL Verson</a>
 </div>
-</div>
+</div> -->
 
 
-<header class="mextreo-header-area mha-inner">
-    <div class="container c-fulid-max">
-    <div class="row">
-    <div class="col-4 col-md-4">
-    <div class="logo-wrapper">
-    <a href="index-2.php">
-    <img src="assets/logo/100x100.png" alt>
-    </a>
-    </div>
-    </div>
-    <div class="col-8 col-md-8">
-    <div class="mextreo-menu">
-    <div class="mxm-wrspper">
-    <nav class="main-nav" role="navigation">
-    
-    <input id="main-menu-state" type="checkbox" />
-    <label class="main-menu-btn" for="main-menu-state">
-    <span class="main-menu-btn-icon"></span>
-    </label>
-    
-    <ul id="main-menu" class="sm sm-mint">
-        <li><a href="index.php">Home</a>
-        
-        </li>
-        <li><a href="about-us.php">About Us</a></li>
-        <li><a href="service.php">Service</a></li>
-        <li><a href="">Gallery</a>
-        <ul>
-        <li><a href="birthday.php">Birthday</a></li>
-        <li><a href="chori.php">Chori</a></li>
-        <li><a href="decoration.php">Decoration</a></li>
-        <li><a href="haldi.php">Haldi</a></li>
-        <li><a href="swimmingpool.php">Swimming Pool</a></li>
-        <li><a href="partyplot.php">Party Plot</a></li>
-        </ul>
-        </li>
-        <!-- <li><a href="blog.php">Blog</a>
-        <ul>
-        <li><a href="blog.php">Blog</a></li>
-        <li><a href="blog-details.php">Blog Details</a></li>
-        </ul>
-        </li> -->
-        <li><a href="contact.php">Contact</a></li>
-        <li class="tel"><a href="tel:">+91 8511055545</a></li>
-        </ul>
-    </nav>
-    </div>
-    <div class="side-ber black">
-    <button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </header>
+<!-- main header -->
+<?php include 'header.php'; ?>
+        <!-- main-header end -->
 
 
-    <div class="side-panel hide">
-        <div class="sp-box">
-        <div class="sp-close">
-        <span class="close-sp"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-        </div>
-        <div class="sp-logo">
-        <a href="index-2.php">
-        <img src="assets/logo/100x100.png" alt>
-        </a>
-        </div>
-        <div class="sp-text">
-        <p>Design affects human. It changes the view of life and the self-image. According to the opinion
-        specialists, a good design with the lifestyle</p>
-        </div>
-        <div class="sp-recent-post">
-        <h4>Recent Post</h4>
-        <div class="sp-single-rp">
-        <div class="ssrp-img">
-        <img src="assets/img/blog/recent-blog1.jpg" alt>
-        </div>
-        <div class="ssrp-text">
-        <a href="blog-details.php">Capturing the Essence of Home in Ultra-Modern</a>
-        <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>01 Dec 2020 </span>
-        </div>
-        </div>
-        <div class="sp-single-rp">
-        <div class="ssrp-img">
-        <img src="assets/img/blog/recent-blog2.jpg" alt>
-        </div>
-        <div class="ssrp-text">
-        <a href="blog-details.php">Renovation Architecture
-        and Design </a>
-        <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>25 Nov 2020 </span>
-        </div>
-        </div>
-        <div class="sp-single-rp">
-        <div class="ssrp-img">
-        <img src="assets/img/blog/recent-blog3.jpg" alt>
-        </div>
-        <div class="ssrp-text">
-        <a href="blog-details.php">Architechture Reclaimed
-        Wolid for the Modern</a>
-        <span class="date-meta"><i class="fa fa-calendar" aria-hidden="true"></i>30 Nov 2020 </span>
-        </div>
-        </div>
-        </div>
-        <div class="sp-contact">
-        <h4>Contact</h4>
-        <div class="spc-text">
-        <p>M-87/1035 panchvati appartment Sola road Naranpura Ahmedabad</p>
-        <h5>Phone:</h5>
-        <p>+91 8511055545</p>
-        <h5>Email:</h5>
-        <p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e98c84888085a98c91888499858cc78a8684">npdhevents1980@gmail.com</a></p>
-        </div>
-        </div>
-        <div class="sp-social">
-        <ul class="social-list">
-        <li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
-        <li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a>
-        </li>
-        <li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a>
-        </li>
-        <li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a>
-        </li>
-        </ul>
-        </div>
-        </div>
-        </div>
-
-
+        <?php include 'side_panel.php'; ?>
+<!-- 
 <div class="hero-social">
 <ul>
 <li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
@@ -205,13 +84,13 @@
 <li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a></li>
 <li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a></li>
 </ul>
-</div>
+</div> -->
 
 
 <section class="mextreo-blog">
 <div class="container">
 <div class="mex-blog-top">
-<h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000">Latest News</h6>
+<h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000">Seating</h6>
 <h2 data-aos="fade-up" data-aos-duration="3000">From Our Blog</h2>
 </div>
 <div class="row">
@@ -328,60 +207,9 @@ Dream: Few Tips</h3>
 </section>
 
 
-<section class="footer-details" data-aos="fade-up" data-aos-duration="3000">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12">
-    <div class="subscribe">
-    <form>
-    <input type="text" class="form-control" placeholder=" Enter your email address....." onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email address.....'">
-    <button type="submit" class="btn btn-primary sub-btn"> Subscribe </button>
-    </form>
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="footer-information">
-    <div class="single-info">
-    <h5>Address:</h5>
-    <p>M-87/1035 panchvati appartment Sola road Naranpura Ahmedabad</p>
-    </div>
-    <div class="single-info">
-    <h5>Phone:</h5>
-    <p>+91 8511055545</p>
-    <p>+91 9825795826</p>
-    </div>
-    <div class="single-info">
-    <h5>Email:</h5>
-    <p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="82e3efe3ebeec2efe7faf6f0e7edace1edef">npdhevents1980@gmail.com</a></p>
-    <p><a href="https://demo.voidcoders.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="49272c3e2428202509242c313d3b2c26672a2624">npdhevents1980@gmail.com</a></p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-
-
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-md-2">
-<div class="footer-logo"><img src="assets/img/logo-2.png" alt></div>
-</div>
-<div class="col-md-10">
-<div class="footer-nav">
-<ul>
-<li>Copyright © 2020! <a href>VoidCoders!</a></li>
-<li>|</li>
-<li><a href>Privacy Policy</a></li>
-<li>|</li>
-<li><a href>Terms of Use</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</footer>
+        <!-- main-footer -->
+        <?php include 'footer.php'; ?>
+        <!-- main-footer end -->
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>
