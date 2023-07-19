@@ -495,7 +495,8 @@ header.mextreo-header-area {
     position: relative;
     padding-top: 10px; }
     header.mextreo-header-area .logo-wrapper img {
-      width: auto; }
+      width: auto;
+      height: 74px; }
   header.mextreo-header-area .mextreo-menu {
     position: relative; }
     header.mextreo-header-area .mextreo-menu .sm-mint {
@@ -549,7 +550,21 @@ li.tel {
 /*==============End Header Style==============*/
 /*==============Sticky Header Style==============*/
 header.mextreo-header-area.nav-fixed {
-  animation-duration: 0.8s;
+  position:fixed;
+  opacity:0;
+  visibility:hidden;
+  background: #fff;
+  left:0px;
+  top:0px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width:100%;
+  z-index:0;
+  transition:all 500ms ease;
+  -moz-transition:all 500ms ease;
+  -webkit-transition:all 500ms ease;
+  -ms-transition:all 500ms ease;
+  -o-transition:all 500ms ease;}
+  /* animation-duration: 0.8s;
   animation-name: fadeInDown;
   animation-timing-function: ease-in-out;
   -webkit-box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -567,8 +582,33 @@ header.mextreo-header-area.nav-fixed {
   header.mextreo-header-area.nav-fixed .main-menu-btn-icon,
   header.mextreo-header-area.nav-fixed .main-menu-btn-icon:before,
   header.mextreo-header-area.nav-fixed .main-menu-btn-icon:after {
-    background: black; }
+    background: black; } */
 
+.fixed-header .sticky-header{
+    z-index:999;
+    opacity:1;
+    visibility:visible;
+    -ms-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -op-animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -ms-animation-duration: 500ms;
+    -moz-animation-duration: 500ms;
+    -op-animation-duration: 500ms;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -op-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -op-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
 /*==============End Sticky Header Style==============*/
 .side-panel {
   position: fixed;
@@ -830,7 +870,7 @@ section.mextreo-about {
       font-size: 193px;
       top: -16%;
       left: -38%;
-      color: #f8f8f8;
+      color: #413e3e;
       z-index: -1; }
     section.mextreo-about .m-about-content h2 {
       padding-right: 10%; }

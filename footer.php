@@ -36,7 +36,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-2">
-<div class="footer-logo"><img src="Final_images\footer_logo.png" alt></div>
+<div class="footer-logo"><img src="assets\Final_images\Footer_logo.png" alt></div>
 </div>
 <div class="col-md-10">
 <div class="footer-nav">

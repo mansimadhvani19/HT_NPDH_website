@@ -53,56 +53,72 @@
 </button>
 
 <header class="mextreo-header-area">
-<div class="container c-fulid-max">
-<div class="row">
-<div class="col-4 col-md-4">
-<div class="logo-wrapper">
-<a href="index.php">
-<img src="assets/logo/100x100.png" alt>
-</a>
-</div>
-</div>
-<div class="col-8 col-md-8">
-<div class="mextreo-menu">
-<div class="mxm-wrspper">
-<nav class="main-nav" role="navigation">
+    <style>
+        .logo-wrapper img {
+            width: 100px; /* Set your desired initial width */
+            height: 100px; /* Set your desired initial height */
+            transition: all 0.3s ease; /* Add a smooth transition effect */
+          
+            }
 
-<input id="main-menu-state" type="checkbox" />
-<label class="main-menu-btn" for="main-menu-state">
-<span class="main-menu-btn-icon"></span>
-</label>
+            /* Smaller size of the logo on scroll */
+            .sticky-header .logo-wrapper img {
+            width: 70px; /* Set your desired smaller width */
+            height: 70px; /* Set your desired smaller height */
+            }
+            header.mextreo-header-area .logo-wrapper img {
+            width: auto;
+            height: 74px; }
+    </style>
+    <div class="container c-fulid-max">
+        <div class="row">
+            <div class="col-4 col-md-4">
+                <div class="logo-wrapper">
+                    <a href="index.php">
+                        <img src="assets\Final_images\100x100.png" alt>
+                    </a>
+                </div>
+            </div>
+            <div class="col-8 col-md-8">
+                <div class="mextreo-menu">
+                <div class="mxm-wrspper">
+                    <nav class="main-nav" role="navigation">
 
-<ul id="main-menu" class="sm sm-mint">
-<li><a href="index.php">Home</a>
+                    <input id="main-menu-state" type="checkbox"/>
+                    <label class="main-menu-btn" for="main-menu-state">
+                    <span class="main-menu-btn-icon"></span>
+                    </label>
 
-</li>
-<li><a href="about-us.php">About Us</a></li>
-<li><a href="service.php">Service</a></li>
-<li><a href="">Gallery</a>
-<ul>
-<li><a href="birthday.php">Birthday</a></li>
-<li><a href="chori.php">chori</a></li>
-<li><a href="decoration.php">Decoration</a></li>
-<li><a href="haldi.php">Haldi</a></li>
-<li><a href="swimmingpool.php">Pool Party</a></li>
-<li><a href="partyplot.php">Party Plot</a></li>
-</ul>
-</li>
+                    <ul id="main-menu" class="sm sm-mint">
+                    <li><a href="index.php">Home</a>
 
-<li><a href="contact.php">Contact</a></li>
-<li class="tel"><a href="tel:">+91 8511055545</a></li>
-</ul>
-</nav>
-</div>
-<div class="side-ber">
-<button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
-</div>
-</div>
-</div>
-</div>
-</div>
+                    </li>
+                    <li><a href="about-us.php">About Us</a></li>
+                    <li><a href="service.php">Service</a></li>
+                    <li><a href="">Gallery</a>
+                    <ul>
+                    <li><a href="birthday.php">Birthday</a></li>
+                    <li><a href="chori.php">chori</a></li>
+                    <li><a href="decoration.php">Decoration</a></li>
+                    <li><a href="haldi.php">Haldi</a></li>
+                    <li><a href="swimmingpool.php">Pool Party</a></li>
+                    <li><a href="partyplot.php">Party Plot</a></li>
+                    </ul>
+                    </li>
+
+                    <li><a href="contact.php">Contact</a></li>
+                    <li class="tel"><a href="tel:">+91 8511055545</a></li>
+                    </ul>
+                    </nav>
+                </div>
+                <div class="side-ber">
+                    <button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
-
 
 <?php include 'side_panel.php'; ?>
 
@@ -188,7 +204,7 @@ From Imagination to Celebration: <br/>
 </div>
 <div class="col-md-5 offset-md-1 order-md-2 order-1">
 <div class="m-about-content">
-<h2 class="ab-tittle">NPDH</h2>
+<h2 class="ab-tittle" style="color: #cbc5c5;">NPDH</h2>
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">ABOUT US</h6>
 <h2 data-aos="fade-up" data-aos-duration="2000">Events Elevated, Memories Captivated.</h2>
 <p data-aos="fade-up" data-aos-duration="2500">NPDH Events is your ultimate partner in creating extraordinary events of all kinds. From corporate gatherings to weddings and everything in between, our expert team delivers seamless execution and innovative flair. With a passion for perfection, we craft experiences that leave a lasting impression. Let us transform your vision into reality, making each occasion an unforgettable celebration.
@@ -206,9 +222,9 @@ From Imagination to Celebration: <br/>
 <div class="row">
 <div class="col-md-5">
 <div class="m-s-content">
-<h2 class="ms-tittle">Service</h2>
-<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2000">What we do</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000">Our Service</h2>
+<h2 class="ms-tittle" style="color: #cbc5c5;">Service</h2>
+<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2000" style="color: #d0a15c;">What we do</h6>
+<h2 data-aos="fade-up" data-aos-duration="2000" >Our Service</h2>
 <p data-aos="fade-up" data-aos-duration="2500">At NPDH Events, we are your comprehensive event solution. Our versatile services cover a wide spectrum of events, from corporate functions to private celebrations. We offer meticulous planning, creative design, flawless execution, and reliable coordination to ensure every detail is perfectly orchestrated. Our team of experts handles logistics, entertainment, venue selection, catering, and more, tailored to your unique preferences and budget. Whether it's a grand gala, an intimate gathering, or a corporate conference, trust us to elevate your event and leave a lasting impact on your guests.</p>
 <a href="service.php" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
 </div>
@@ -217,7 +233,8 @@ From Imagination to Celebration: <br/>
 <div class="row">
 <div class="col-md-6" data-aos="fade-down-right" data-aos-duration="3000">
 <div class="single-service si-1">
-<i class="flaticon-house service-icon"></i>
+<i class="flaticon-house service-icon"><a href="" title="birthday icons"></a></i>
+
 <h3>Architecture</h3>
 </div>
 </div>
@@ -274,8 +291,8 @@ THE MARKET</h3>
 <section class="recent-project">
 <div class="container">
 <div class="recent-pro-top">
-<h2 class="rp-tittle">works</h2>
-<h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000">What we do</h6>
+<h2 class="rp-tittle" style="color: #cbc5c5;">works</h2>
+<h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000" style="color: #d0a15c;">What we do</h6>
 <h2 data-aos="fade-up" data-aos-duration="3000">Recent Project</h2>
 </div>
 <div class="row">
@@ -287,8 +304,8 @@ THE MARKET</h3>
 <img src="assets/Final_images/recent_project_image_1.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Introgen Abultreso</h3>
-<p>Dedisgn, House</p>
+<h3>Captivating Scene Love</h3>
+<!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
 </div>
@@ -299,8 +316,8 @@ THE MARKET</h3>
 <img src="assets/Final_images/recent_project_image_2.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Introgen Abultreso</h3>
-<p>Dedisgn, House</p>
+<h3>Gateway to Happiness</h3>
+<!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
 </div>
@@ -311,8 +328,8 @@ THE MARKET</h3>
 <img src="assets/Final_images/recent_project_image_3.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Introgen Abultreso</h3>
-<p>Dedisgn, House</p>
+<h3>Enthralling Arrival</h3>
+<!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
 </div>
@@ -320,11 +337,11 @@ THE MARKET</h3>
 <div class="item">
 <div class="single-project" data-aos="fade-up" data-aos-duration="2500">
 <div class="sp-img">
-<img src="assets/Final_images/recent_project_image_2.jpg" alt>
+<img src="assets/Final_images/recent_project_image_4.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Introgen Abultreso</h3>
-<p>Dedisgn, House</p>
+<h3>Whimsical Union</h3>
+<!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"><i class="flaticon-add rp-icon"></i></a>
 </div>
