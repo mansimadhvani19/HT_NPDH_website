@@ -46,34 +46,16 @@
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
 
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
 
-<div id="preloader"></div>
 
 
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
-<!-- 
-<div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/faq.php">View RTL Verson</a>
-</div>
-</div> -->
-
-
-<!-- main header -->
 <?php include 'header.php'; ?>
-        <!-- main-header end -->
-
 
 <?php include 'side_panel.php'; ?>
 
@@ -322,10 +304,7 @@ molestiae.</p>
 </div>
 </section>
 
-
-        <!-- main-footer -->
-        <?php include 'footer.php'; ?>
-        <!-- main-footer end -->
+<?php include 'footer.php'; ?>
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

@@ -30,7 +30,7 @@
         <li><a href="chori.php">Chori</a></li>
         <li><a href="decoration.php">Decoration</a></li>
         <li><a href="haldi.php">Haldi</a></li>
-        <li><a href="swimmingpool.php">Swimming Pool</a></li>
+        <li><a href="swimmingpool.php">Pool Party</a></li>
         <li><a href="partyplot.php">Party Plot</a></li>
         </ul>
         </li>

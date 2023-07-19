@@ -45,30 +45,12 @@
 
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
-
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
-
-<div id="preloader"></div>
-
 
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
 </button>
-
-<!-- <div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/index.php">View RTL Verson</a>
-</div>
-</div> -->
-
-
 
 <header class="mextreo-header-area">
 <div class="container c-fulid-max">
@@ -102,16 +84,11 @@
 <li><a href="chori.php">chori</a></li>
 <li><a href="decoration.php">Decoration</a></li>
 <li><a href="haldi.php">Haldi</a></li>
-<li><a href="swimmingpool.php">Swimming Pool</a></li>
+<li><a href="swimmingpool.php">Pool Party</a></li>
 <li><a href="partyplot.php">Party Plot</a></li>
 </ul>
 </li>
-<!-- <li><a href="blog.php">Blog</a>
-<ul>
-<li><a href="blog.php">Blog</a></li>
-<li><a href="blog-details.php">Blog Details</a></li>
-</ul>
-</li> -->
+
 <li><a href="contact.php">Contact</a></li>
 <li class="tel"><a href="tel:">+91 8511055545</a></li>
 </ul>
@@ -149,28 +126,9 @@
 Your Vision, Our Expertise.<br/>
 </rs-layer>
 
-<!-- <rs-layer id="slider-22-slide-33-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
-to
-launch a custom branded website for your next project. Come to the table
-</rs-layer> -->
-<!-- <a id="slider-22-slide-33-layer-4" class="rs-layer hero-btn rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:570px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="rX:0deg;rY:0deg;rZ:0deg;bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;iC:true;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;cursor:pointer;">Discover
-More
-</a> -->
-
 <rs-layer id="slider-22-slide-33-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
 Crafting Perfection: <br/>
 </rs-layer>
-<!-- <a id="slider-22-slide-33-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
-</a> -->
-<!-- <a id="slider-22-slide-33-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
-</a> -->
-<!-- <a id="slider-22-slide-33-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
-</a> -->
-<!-- <a id="slider-22-slide-33-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
-</a> -->
-
-<!-- <rs-layer id="slider-22-slide-33-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:5;background-color:#dcbc95;">
-</rs-layer> -->
 
 </rs-slide>
 <rs-slide data-key="rs-36" data-title="Slide" data-thumb="assets/slide1-2-50x100.jpg" data-anim="ei:d,d;eo:d,d;s:1000,d;r:0,0;t:zoomout,scaledownfromright;sl:d,d;" data-sloop="s:4000;e:9000;">
@@ -183,28 +141,9 @@ Crafting Perfection: <br/>
 Memories Unforgettable.<br/>
 </rs-layer>
 
-<!-- <rs-layer id="slider-22-slide-36-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
-to
-launch a custom branded website for your next project. Come to the table
-</rs-layer> -->
-<!-- <a id="slider-22-slide-36-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
-More
-</a> -->
-
 <rs-layer id="slider-22-slide-36-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
 Events Redefined,<br/>
 </rs-layer>
-<!-- <a id="slider-22-slide-36-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
-</a> -->
-<!-- <a id="slider-22-slide-36-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
-</a> -->
-<!-- <a id="slider-22-slide-36-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
-</a> -->
-<!-- <a id="slider-22-slide-36-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
-</a> -->
-
-<!-- <rs-layer id="slider-22-slide-36-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:10;background-color:#dcbc95;">
-</rs-layer> -->
 
 </rs-slide>
 <rs-slide data-key="rs-37" data-title="Slide" data-thumb="assets/slide4-50x100.jpg" data-anim="ei:d,d;eo:d,d;s:1000,d;r:0,0;t:zoomout,scaledownfromright;sl:d,d;" data-sloop="s:4000;e:9000;">
@@ -217,28 +156,9 @@ Events Redefined,<br/>
 We Deliver.<br/>
 </rs-layer>
 
-<!-- <rs-layer id="slider-22-slide-37-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3000;" style="z-index:11;font-family:Gotham Narrow;">Maxtrio is the most effective way
-to
-launch a custom branded website for your next project. Come to the table
-</rs-layer> -->
-<!-- <a id="slider-22-slide-37-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:12;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
-More
-</a> -->
-
 <rs-layer id="slider-22-slide-37-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:9;font-family:Chronicle Display;text-transform:capitalize;">
 From Imagination to Celebration: <br/>
 </rs-layer>
-<!-- <a id="slider-22-slide-37-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:13;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
-</a> -->
-<!-- <a id="slider-22-slide-37-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
-</a> -->
-<!-- <a id="slider-22-slide-37-layer-11" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
-</a> -->
-<!-- <a id="slider-22-slide-37-layer-12" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
-</a> -->
-
-<!-- <rs-layer id="slider-22-slide-37-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#dcbc95;" style="z-index:17;background-color:#dcbc95;">
-</rs-layer> -->
 
 </rs-slide>
 </rs-slides>
@@ -545,18 +465,6 @@ brought in the extra finishing touches.</p>
 </div>
 </div>
 </section>
-
-
-<!-- <section class="partner" data-aos="fade-up" data-aos-duration="2500">
-<div class="container">
-<div class="single-partner"><img src="assets/img/partner/pertner1.jpg" alt></div>
-<div class="single-partner"><img src="assets/img/partner/pertner2.jpg" alt></div>
-<div class="single-partner"><img src="assets/img/partner/pertner3.jpg" alt></div>
-<div class="single-partner"><img src="assets/img/partner/pertner4.jpg" alt></div>
-<div class="single-partner"><img src="assets/img/partner/pertner5.jpg" alt></div>
-<div class="single-partner"><img src="assets/img/partner/pertner6.jpg" alt></div>
-</div>
-</section> -->
 
 
 <?php

@@ -46,13 +46,9 @@
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
 
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
+
 </head>
 <body>
-
-<div id="preloader"></div>
 
 
 <button class="scroll-top scroll-to-target" data-target="html">
@@ -60,32 +56,8 @@
 </button>
 
 
-<!-- <div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/blog-details.php">View RTL Verson</a>
-</div>
-</div> -->
-
-
-<!-- main header -->
 <?php include 'header.php'; ?>
-        <!-- main-header end -->
-
-
-        <?php include 'side_panel.php'; ?>
-
-
-<div class="hero-social">
-<ul>
-<li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a></li>
-</ul>
-</div>
+<?php include 'side_panel.php'; ?>
 
 
 <section class="blog-details">

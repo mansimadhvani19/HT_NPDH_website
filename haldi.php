@@ -45,48 +45,16 @@
 
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
-
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
-
-<div id="preloader"></div>
-
 
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
-
-<!-- <div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/blog.php">View RTL Verson</a>
-</div>
-</div> -->
-
-
-<!-- main header -->
 <?php include 'header.php'; ?>
-        <!-- main-header end -->
-
 
 <?php include 'side_panel.php'; ?>
-
-
-<!-- <div class="hero-social">
-<ul>
-<li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a></li>
-</ul>
-</div> -->
-
 
 <section class="mextreo-blog">
 <div class="container">
@@ -98,119 +66,63 @@
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/01.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Capturing the Essence of
-Home in Ultra-Modern </h3>
-</a>
-<p>Dec 15, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/02.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Renovation Architecture
-and Design </h3>
-</a>
-<p>Dec 25, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/03.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Architechture Reclaimed
-Wolid for the Modern </h3>
-</a>
-<p>Dec 10, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/04.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Advice for stirring your
-online community </h3>
-</a>
-<p>Dec 12, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/05.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Renovation Architecture
-and Design </h3>
-</a>
-<p>Dec 08, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/06.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Apartment Renovation by
-Flussocreativo Design </h3>
-</a>
-<p>Dec 05, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/07.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Romantic Apartment in
-Rome Renovated</h3>
-</a>
-<p>Nov 10, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/08.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>New Renderings Reveal the
-Penthouse Interior</h3>
-</a>
-<p>Nov 18, 2020</p>
-</div> -->
+
 </div>
 </div>
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
 <div class="single-blog">
 <img src="assets/npdh image gallery/haldi/09.jpg" alt>
-<!-- <div class="sb-content">
-<a href>
-<h3>Create a House of Your
-Dream: Few Tips</h3>
-</a>
-<p>Nov 25, 2020</p>
-</div> -->
+
 </div>
 </div>
 </div>
 </div>
 </section>
 
+<?php include 'footer.php'; ?>
 
-        <!-- main-footer -->
-        <?php include 'footer.php'; ?>
-        <!-- main-footer end -->
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

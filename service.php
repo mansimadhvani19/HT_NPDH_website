@@ -45,47 +45,16 @@
 
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
-
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
-
-<div id="preloader"></div>
-
 
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
-
-<!-- <div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/service.php">View RTL Verson</a>
-</div>
-</div> -->
-
-
-<!-- main header -->
 <?php include 'header.php'; ?>
-        <!-- main-header end -->
 
 <?php include 'side_panel.php'; ?>
-
-
-<!-- <div class="hero-social">
-<ul>
-<li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a></li>
-<li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a></li>
-</ul>
-</div> -->
-
 
 <section class="mextreo-hero inner mar-bot-50">
 <div class="container">
@@ -96,9 +65,7 @@
 <h2 data-aos="fade-up" data-aos-duration="2000">We offer professional unforgettable event experiences.</h2>
 <p data-aos="fade-up" data-aos-duration="2500">At NPDH Events, we are committed to delivering exceptional events of all kinds, tailored to your vision and needs. Let us take care of every detail, so you can enjoy the celebration to the fullest.
 </p>
-<!-- <p data-aos="fade-up" data-aos-duration="3000">We are a full-service interior design firm with
-expertise in custom-designed rooms and homes, from top to bottom. Our services include, but
-are not limited to:</p> -->
+
 <ul>
 <li data-aos="fade-up" data-aos-duration="1700">Corporate Events</li>
 <li data-aos="fade-up" data-aos-duration="1800">Weddings & Celebrations</li>
@@ -195,10 +162,8 @@ Our skilled team of designers ensures that every detail is immaculately crafted 
 </div>
 </section>
 
+<?php include 'footer.php'; ?>
 
-        <!-- main-footer -->
-        <?php include 'footer.php'; ?>
-        <!-- main-footer end -->
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

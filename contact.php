@@ -110,36 +110,18 @@ form {
         }
         
 </style>
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
+
 </head>
 <body>
-
-<div id="preloader"></div>
-
 
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
 
-<!-- <div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/contact.php">View RTL Verson</a>
-</div>
-</div> -->
-
-
-<!-- main header -->
 <?php include 'header.php'; ?>
-        <!-- main-header end -->
 
-
-        <?php include 'side_panel.php'; ?>
+<?php include 'side_panel.php'; ?>
 
 
 
@@ -149,16 +131,15 @@ form {
 <div class="row">
 <div class="col-md-6">
 <div class="hero-content">
-<!-- <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">Contact</h6> -->
 <h2 data-aos="fade-up" data-aos-duration="2000">Get In Touch</h2>
 <p data-aos="fade-up" data-aos-duration="2500">We are waiting for you on our office in New York
 or in way, contact us via the contact form below your idea.</p>
 <div class="mextreo-contact" data-aos="fade-up" data-aos-duration="3000">
 
     <form method="post" action="contact_handler.php">     
-        <!-- <div class="row"> -->
+        
             <div class="col-xl-12">
-                <!-- <form action="#" method="post"> -->
+                
             </div>
                 <div class="col-xl-6">
                     <div>
@@ -179,7 +160,6 @@ or in way, contact us via the contact form below your idea.</p>
                 <div class="col-xl-12">
                     <div class="contact-us-btn">
                         <div>
-                            <!-- <button class="theme-btn style-one" type="submit" name="submit-form">Submit</button> -->
                             <button type="submit" id="submit" class="m-submit">send message</button>
                         </div>
                     </div>
@@ -187,21 +167,6 @@ or in way, contact us via the contact form below your idea.</p>
             <!-- </div> -->
 
         </form>
-<!-- <form id="cf" method="POST" action="contact_handler.php">
-    <div class="form-group mcfg">
-        <input type="text" name="name" placeholder="Name" required="">
-    </div>
-    <div class="form-group">
-        <input type="email" name="email" placeholder="Your Email" required="">
-    </div>
-    <div class="form-group mcfg">
-        <textarea name="message" placeholder="Message" required=""></textarea>
-    </div>
-    <button type="submit" id="submit" class="m-submit">send message</button>
-    <div class="col-md-12 text-center">
-        <div class="cf-msg"></div>
-    </div>
-</form> -->
 </div>
 </div>
 </div>
@@ -228,9 +193,9 @@ or in way, contact us via the contact form below your idea.</p>
 </section>
 
 
-        <!-- main-footer -->
-        <?php include 'footer.php'; ?>
-        <!-- main-footer end -->
+
+<?php include 'footer.php'; ?>
+
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>
