@@ -67,7 +67,7 @@
             height: 70px; /* Set your desired smaller height */
             }
             header.mextreo-header-area .logo-wrapper img {
-            width: auto;
+            width: 89px;
             height: 74px; }
     </style>
     <div class="container c-fulid-max">

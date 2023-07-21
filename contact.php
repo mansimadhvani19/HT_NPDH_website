@@ -174,7 +174,7 @@ or in way, contact us via the contact form below your idea.</p>
 <br>
 <div class="col-md-6">
 <div class="hero-inner-img">
-<img src="Final_images\contact_us_image.jpg" alt data-aos="fade-left" data-aos-duration="2000">
+<img src="assets\Final_images\contact_us_image.jpg" alt data-aos="fade-left" data-aos-duration="2000">
 </div>
 
 </div>
