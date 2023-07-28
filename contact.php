@@ -121,9 +121,8 @@ form {
 
 <?php include 'header.php'; ?>
 
+
 <?php include 'side_panel.php'; ?>
-
-
 
 
 <section class="mextreo-hero inner mar-bot-140">
@@ -192,11 +191,7 @@ or in way, contact us via the contact form below your idea.</p>
     </div>
 </section>
 
-
-
 <?php include 'footer.php'; ?>
-
-
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>
 

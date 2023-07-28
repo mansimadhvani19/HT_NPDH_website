@@ -27,7 +27,7 @@
   text-align: center;
   text-shadow: none;
   color: #fff;
-  background: #d0a15c;
+  background: #dcbc95;
   border-radius: 4px;
 }
 .sm-mint a .sub-arrow::before {
@@ -113,7 +113,7 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
   }
   
 .sm-mint>li>a:hover{
-  color: #d0a15c !important;
+  color: #dcbc95 !important;
 }
   .sm-mint ul li, .sm-mint.sm-rtl ul li, .sm-mint.sm-vertical li {
     float: none;
@@ -212,7 +212,7 @@ header.mextreo-header-area.nav-fixed nav ul.sm-mint > li > a .sub-arrow{
   }
   .sm-mint ul a:hover, .sm-mint ul a:focus, .sm-mint ul a:active, .sm-mint ul a.highlighted {
     background: #ffffff00;
-    color: #d0a15c !important;
+    color: #dcbc95 !important;
     box-shadow: none;
   }
   .sm-mint ul a.disabled {

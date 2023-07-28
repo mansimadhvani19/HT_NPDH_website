@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Commingsoon V1 | Maxtreo Architecture and Interior Html5 Template</title>
+<title>Comming Soon</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -52,22 +52,9 @@
 </head>
 <body>
 
-<div id="preloader"></div>
-
-
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
 </button>
-
-
-<!-- <div class="page-settings">
-<div class="psg-icon">
-<i class="fa fa-cog" aria-hidden="true"></i>
-</div>
-<div class="pgs-box">
-<a href="rtl/commingsoon.php">View RTL Verson</a>
-</div>
-</div> -->
 
 <section class="commingsoon">
 <div class="container">

@@ -13,7 +13,7 @@
     <div class="footer-information">
     <div class="single-info">
     <h5>Address:</h5>
-    <p>M-87/1035 Aanchvati Apartment, Sola Road, Naranpura, Ahmedabad, Gujarat</p>
+    <p>M-87/1035 Panchvati Apartment, Sola Road, Naranpura, Ahmedabadd</p>
     </div>
     <div class="single-info">
     <h5>Phone:</h5>
@@ -36,16 +36,15 @@
 <div class="container">
 <div class="row">
 <div class="col-md-2">
-<div class="footer-logo"><img src="assets\Final_images\Footer_logo.png" alt></div>
+<div class="footer-logo"><img src="assets/Final_images/Footer_logo.png" alt></div>
+</div></div>
 </div>
 <div class="col-md-10">
 <div class="footer-nav">
 <ul>
-<li>Copyright © 2023 <a href>NPDH events</a></li>
-<!-- <li>|</li>
 <li><a href>Privacy Policy</a></li>
 <li>|</li>
-<li><a href>Terms of Use</a></li> -->
+<li><a href>Terms of Use</a></li>
 </ul>
 </div>
 </div>

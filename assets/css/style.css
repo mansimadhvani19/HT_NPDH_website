@@ -295,14 +295,14 @@ p img {
   display: inline-block;
   position: relative;
   text-transform: uppercase; }
-  .ht-tittle::before {
+  /* .ht-tittle::before {
     position: absolute;
     content: '';
     background: #dcbc95;
     height: 2px;
     width: 60px;
     left: -70px;
-    top: 12px; }
+    top: 12px; } */
 
 /* em and strong */
 em {
@@ -428,7 +428,7 @@ input:focus {
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  background: #d0a15c;
+  background: #dcbc95;
   transition: 1s ease;
   border: none;
   -webkit-animation-name: scrollup;
@@ -439,7 +439,7 @@ input:focus {
   animation-delay: 2s;
   animation-timing-function: ease-in; }
   .scroll-top:hover {
-    background: #d0a15c; }
+    background: #a3a3a3; }
   .scroll-top:after {
     position: absolute;
     z-index: -1;
@@ -466,8 +466,8 @@ input:focus {
   transition: .4s ease; }
   .btn-1:hover {
     color: #ffffff;
-    background: #d0a15c;
-    border-color: #d0a15c; }
+    background: #dcbc95;
+    border-color: #dcbc95; }
 
 .dark {
   position: relative;
@@ -495,8 +495,7 @@ header.mextreo-header-area {
     position: relative;
     padding-top: 10px; }
     header.mextreo-header-area .logo-wrapper img {
-      width: auto;
-      height: 74px; }
+      width: 89px; height: 74px; }
   header.mextreo-header-area .mextreo-menu {
     position: relative; }
     header.mextreo-header-area .mextreo-menu .sm-mint {
@@ -550,21 +549,7 @@ li.tel {
 /*==============End Header Style==============*/
 /*==============Sticky Header Style==============*/
 header.mextreo-header-area.nav-fixed {
-  position:fixed;
-  opacity:0;
-  visibility:hidden;
-  background: #fff;
-  left:0px;
-  top:0px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  width:100%;
-  z-index:0;
-  transition:all 500ms ease;
-  -moz-transition:all 500ms ease;
-  -webkit-transition:all 500ms ease;
-  -ms-transition:all 500ms ease;
-  -o-transition:all 500ms ease;}
-  /* animation-duration: 0.8s;
+  animation-duration: 0.8s;
   animation-name: fadeInDown;
   animation-timing-function: ease-in-out;
   -webkit-box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -582,33 +567,8 @@ header.mextreo-header-area.nav-fixed {
   header.mextreo-header-area.nav-fixed .main-menu-btn-icon,
   header.mextreo-header-area.nav-fixed .main-menu-btn-icon:before,
   header.mextreo-header-area.nav-fixed .main-menu-btn-icon:after {
-    background: black; } */
+    background: black; }
 
-.fixed-header .sticky-header{
-    z-index:999;
-    opacity:1;
-    visibility:visible;
-    -ms-animation-name: fadeInDown;
-    -moz-animation-name: fadeInDown;
-    -op-animation-name: fadeInDown;
-    -webkit-animation-name: fadeInDown;
-    animation-name: fadeInDown;
-    -ms-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    -op-animation-duration: 500ms;
-    -webkit-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -ms-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -op-animation-timing-function: linear;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -ms-animation-iteration-count: 1;
-    -moz-animation-iteration-count: 1;
-    -op-animation-iteration-count: 1;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-  }
 /*==============End Sticky Header Style==============*/
 .side-panel {
   position: fixed;
@@ -647,7 +607,7 @@ header.mextreo-header-area.nav-fixed {
     position: relative; }
     .sp-box .sp-logo img {
       max-width: unset;
-      width: auto; }
+      width: 74px; }
   .sp-box .sp-text {
     position: relative;
     margin: 25px auto; }
@@ -806,25 +766,23 @@ section.mextreo-hero.inner {
           font-family: "Gotham Narrow";
           font-weight: 500;
           border-bottom: 1px solid #c8c8c8; }
-          section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit {
-            position: relative;
-            margin-top: 40px;
-            background: transparent;
-            /* padding: auto; */
-            font-family: "Gotham Narrow";
-            font-weight: 500;
-            color: #0c0c1f;
-            border: 1px solid #0c0c1f;
-            display: inline-block;
-            text-transform: uppercase;
-            cursor: pointer;
-            transition: .4s ease;
-        }
+      section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit {
+        position: relative;
+        margin-top: 40px;
+        background: transparent;
+        padding: 16px 40px;
+        font-family: "Gotham Narrow";
+        font-weight: 500;
+        color: #0c0c1f;
+        border: 1px solid #0c0c1f;
+        display: inline-block;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .4s ease; }
         section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit:hover {
           color: #ffffff;
-          background: #d48d23;
-          border-color: #d0a15c; }
-          
+          background: #dcbc95;
+          border-color: #dcbc95; }
   section.mextreo-hero.inner .hero-inner-img {
     position: relative;
     margin-left: 8%;
@@ -870,7 +828,7 @@ section.mextreo-about {
       font-size: 193px;
       top: -16%;
       left: -38%;
-      color: #413e3e;
+      color: #f8f8f8;
       z-index: -1; }
     section.mextreo-about .m-about-content h2 {
       padding-right: 10%; }
@@ -1238,14 +1196,14 @@ section.mextreo-blog {
       left: 22%;
       color: #f8f8f8;
       z-index: -1; }
-    section.mextreo-blog .mex-blog-top .ht-tittle::after {
+    /* section.mextreo-blog .mex-blog-top .ht-tittle::after {
       position: absolute;
       content: '';
       background: #dcbc95;
       height: 2px;
       width: 60px;
-      right: -75%;
-      top: 35%; }
+      right: -31%;
+      top: 35%; } */
   section.mextreo-blog .single-blog {
     position: relative;
     overflow: hidden;
@@ -1923,20 +1881,33 @@ section.footer-details.dark2 {
       background: #dcbc95; }
   section.footer-details.dark2 .footer-information .single-info h5 {
     color: #ffffff; }
+    .footer-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .footer-icons a {
+      margin: 0 10px;
+    }
+    
+    .footer-icons img {
+      width: 30px; /* Adjust the size of the icons as needed */
+      height: 30px;
+    }
 
 /*=============End Footer Details Style==================*/
 /*================Foooter Style======================*/
 footer {
   position: relative;
   background: #f8f8f8;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  border-top: 1px solid #c8c8c8;
-  height: 10px; 
-}
+  padding-top: 35px;
+  padding-bottom: 13px;
+  border-top: 1px solid #c8c8c8; }
   footer .footer-nav {
     position: relative;
-    text-align: right; }
+    text-align: right; 
+    margin-top: -3%;}
     footer .footer-nav ul li {
       font-family: "Gotham Narrow";
       font-size: 15px;
@@ -2421,11 +2392,13 @@ Responsive Style
 @media only screen and (max-width: 1399px) {
   section.mextreo-service .m-s-content h2.ms-tittle {
     font-size: 84px;
-    left: -20%; }
+    left: -20%; 
+    color: #cbc5c5;}
 
   section.mextreo-about .m-about-content h2.ab-tittle {
     font-size: 84px;
-    left: -20%; }
+    left: -20%; 
+    color: #cbc5c5;}
 
   section.recent-project .recent-pro-top h2.rp-tittle {
     font-size: 84px;
@@ -3130,7 +3103,8 @@ Responsive Style
     margin-left: 20px; }
 
   header.mextreo-header-area .logo-wrapper img {
-    width: 40%; }
+    width: 80%;
+    height: 1%; }
 
   section.partner .single-partner {
     margin-left: 25px; }
@@ -3440,6 +3414,8 @@ Responsive Style
   h1 {
     font-size: 30px;
     line-height: 40px; } }
+
+
 /* 
 --------------------------
 - Custom Typography
@@ -3447,3 +3423,14 @@ Responsive Style
 */
 
 /*# sourceMappingURL=style.css.map */
+
+.single-service.si-2 img {
+  width: 40%;
+}
+.single-service.si-1 img {
+  width: 40%;
+}
+.single-service img {
+  width: 40%;
+}
+

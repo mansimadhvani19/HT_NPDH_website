@@ -45,8 +45,13 @@
 
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
+
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
+
 
 <button class="scroll-top scroll-to-target" data-target="html">
 <i class="flaticon-up scrollup-icon"></i>
@@ -55,6 +60,7 @@
 <?php include 'header.php'; ?>
 
 <?php include 'side_panel.php'; ?>
+
 
 <section class="mextreo-hero inner mar-bot-50">
 <div class="container">
@@ -65,14 +71,16 @@
 <h2 data-aos="fade-up" data-aos-duration="2000">We offer professional unforgettable event experiences.</h2>
 <p data-aos="fade-up" data-aos-duration="2500">At NPDH Events, we are committed to delivering exceptional events of all kinds, tailored to your vision and needs. Let us take care of every detail, so you can enjoy the celebration to the fullest.
 </p>
-
+<!-- <p data-aos="fade-up" data-aos-duration="3000">We are a full-service interior design firm with
+expertise in custom-designed rooms and homes, from top to bottom. Our services include, but
+are not limited to:</p> -->
 <ul>
-<li data-aos="fade-up" data-aos-duration="1700">Corporate Events</li>
-<li data-aos="fade-up" data-aos-duration="1800">Weddings & Celebrations</li>
-<li data-aos="fade-up" data-aos-duration="2100">Social Gatherings</li>
-<li data-aos="fade-up" data-aos-duration="2500">Themed Parties & Entertainment</li>
-<li data-aos="fade-up" data-aos-duration="2800">Destination Events</li>
-<li data-aos="fade-up" data-aos-duration="3000">Gala Dinners & Awards Nights</li>
+    <li data-aos="fade-up" data-aos-duration="1700">Corporate Events</li>
+    <li data-aos="fade-up" data-aos-duration="1800">Weddings & Celebrations</li>
+    <li data-aos="fade-up" data-aos-duration="2100">Social Gatherings</li>
+    <li data-aos="fade-up" data-aos-duration="2500">Themed Parties & Entertainment</li>
+    <li data-aos="fade-up" data-aos-duration="2800">Destination Events</li>
+    <li data-aos="fade-up" data-aos-duration="3000">Gala Dinners & Awards Nights</li>
 </ul>
 </div>
 </div>
@@ -97,19 +105,12 @@
 </div>
 <div class="col-md-5 order-md-2 order-1">
 <div class="ab-arch-content">
-<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2500">Acchitect design</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000">Architecture</h2>
-<p data-aos="fade-up" data-aos-duration="2500">Inspired by her father, a talented master
-craftsman, Erika has a thorough understanding of timeless design, custom furniture and the
-construction of fine hand crafted furnishings. Erika’s affinity for classical forms and
-close attention to detail, quality and functionality permeates sophisticated living
-environments. Often her projects are new developments where the clients are looking for a
-complete luxury experience while also increasing the value of their new homes through
-capital improvements.</p>
-<p data-aos="fade-up" data-aos-duration="3000">Erika’s clients value her collaborative approach,
-her expertise on capital improvement and her ability to translate her client’s lifestyle and
-preferences into one of a kind tailored home. Inspired by her father, a talented master
-craftsman, Erika has a thorough </p>
+<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2500">Decoration</h6>
+<h2 data-aos="fade-up" data-aos-duration="2000">Prop Decor</h2>
+<p data-aos="fade-up" data-aos-duration="2500">Flowers are a timeless symbol of love and celebration. Elegant floral arrangements, such as centerpieces, bouquets, and aisle decorations, add a touch of beauty, color, and fragrance to the wedding venue.</p>
+<p data-aos="fade-up" data-aos-duration="3000">Soft pastel hues take center stage, featuring shades of blush pink, creamy whites, pale lavender, and gentle peach. These colors create a dreamy and romantic atmosphere, perfect for celebrating love. The centerpiece is designed in a loose and airy style, embracing a romantic and organic look. The flowers are thoughtfully arranged to appear as if they were gathered straight from a beautiful garden, creating a sense of effortless beauty.
+
+</p>
 </div>
 </div>
 </div>
@@ -125,7 +126,7 @@ craftsman, Erika has a thorough </p>
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2500">Decoration</h6>
 <h2 data-aos="fade-up" data-aos-duration="2000">Wedding Entry Gate</h2>
 <p data-aos="fade-up" data-aos-duration="2500">A magical gateway to forever awaits you at our enchanting entry gate. Adorned with lush greenery, delicate flowers, and whimsical decor, our wedding entry welcomes you to a fairy-tale celebration. Step through our lovingly crafted archway, where dreams come to life, and embark on a journey of love and togetherness. The mesmerizing ambiance sets the tone for an unforgettable day filled with joy, laughter, and cherished memories. Let our beautifully decorated entry gate be the first glimpse of the magic that awaits you, as you celebrate love surrounded by nature's splendor and elegance.</p>
-<p data-aos="fade-up" data-aos-duration="3000">A team of skilled designers has thoughtfully curated this entry gate, combining elements of romance and sophistication. The captivating interplay of colors, lights, and textures creates a picture-perfect backdrop for your special day. </p>
+<p data-aos="fade-up" data-aos-duration="3000">A team of skilled designers has thoughtfully curated this entry gate, combining elements of romance and sophistication. The captivating interplay of colors, lights, and textures creates a picture-perfect backdrop for your special day.</p>
 </div>
 </div>
 <div class="col-md-7">
@@ -153,17 +154,17 @@ craftsman, Erika has a thorough </p>
 <div class="m-about-content">
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">Decoration</h6>
 <h2 data-aos="fade-up" data-aos-duration="2000">Stage Decor</h2>
-<p data-aos="fade-up" data-aos-duration="2500">Behold a captivating stage, an exquisite canvas of love and celebration. Our wedding stage decoration is a masterpiece of elegance, adorned with cascading blooms, ethereal drapery, and glittering lights. The enchanting backdrop sets the perfect ambiance for your special moments, while the intricate details reflect your unique style and story. Embrace the spotlight of love as you exchange vows, surrounded by the beauty of our thoughtfully curated stage. Every glance, every smile, and every heartfelt word will be accentuated by the grace and allure of this dreamlike setting. Let our stage decoration be the centerpiece of your cherished day, where two hearts unite, and the magic of love flourishes in the presence of your loved ones.</p>
+<p data-aos="fade-up" data-aos-duration="2500">Behold a captivating stage, an exquisite canvas of love and celebration. Our wedding stage decoration is a masterpiece of elegance, adorned with cascading blooms, ethereal drapery, and glittering lights. The enchanting backdrop sets the perfect ambiance for your special moments, while the intricate details reflect your unique style and story. Embrace the spotlight of love as you exchange vows, surrounded by the beauty of our thoughtfully curated stage. Every glance, every smile, and every heartfelt word will be accentuated by the grace and allure of this dreamlike setting. Let our stage decoration be the centerpiece of your cherished day, where two hearts unite, and the magic of love flourishes in the presence of your loved ones..</p>
 <p data-aos="fade-up" data-aos-duration="3000">
-Our skilled team of designers ensures that every detail is immaculately crafted to evoke emotions and create lasting impressions. As you stand on this enchanting stage, bask in the warmth of love, and relish the joyous applause of your dear ones. </p>
+    Our skilled team of designers ensures that every detail is immaculately crafted to evoke emotions and create lasting impressions. As you stand on this enchanting stage, bask in the warmth of love, and relish the joyous applause of your dear ones.</p>
 </div>
 </div>
 </div>
 </div>
 </section>
 
-<?php include 'footer.php'; ?>
 
+<?php include 'footer.php'; ?>
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

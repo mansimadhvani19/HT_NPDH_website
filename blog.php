@@ -46,11 +46,13 @@
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
 
-
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
 
-<!-- <div id="preloader"></div> -->
+<div id="preloader"></div>
 
 
 <button class="scroll-top scroll-to-target" data-target="html">
@@ -58,16 +60,26 @@
 </button>
 
 
-
 <?php include 'header.php'; ?>
 
+
 <?php include 'side_panel.php'; ?>
+
+<div class="hero-social">
+<ul>
+<li data-aos="fade-up" data-aos-duration="1500"><a href><i class="flaticon-twitter"></i></a></li>
+<li data-aos="fade-up" data-aos-duration="2000"><a href><i class="flaticon-facebook"></i></a></li>
+<li data-aos="fade-up" data-aos-duration="2500"><a href><i class="flaticon-instagram"></i></a></li>
+<li data-aos="fade-up" data-aos-duration="3000"><a href><i class="flaticon-linkedin"></i></a></li>
+</ul>
+</div>
+
 
 <section class="mextreo-blog">
 <div class="container">
 <div class="mex-blog-top">
 <h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000">Latest News</h6>
-<h2 data-aos="fade-up" data-aos-duration="3000">From Our Collection</h2>
+<h2 data-aos="fade-up" data-aos-duration="3000">From Our Blog</h2>
 </div>
 <div class="row">
 <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
@@ -75,7 +87,8 @@
 <img src="assets/Final_images/blog_image_1.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Flower-Adorned Welcome: Where Love Takes Root. </h3>
+<h3>Capturing the Essence of
+Home in Ultra-Modern </h3>
 </a>
 <p>Dec 15, 2020</p>
 </div>
@@ -86,7 +99,8 @@
 <img src="assets/Final_images/blog_image_2.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Cushioned Elegance: Sit Back and Celebrate. </h3>
+<h3>Renovation Architecture
+and Design </h3>
 </a>
 <p>Dec 25, 2020</p>
 </div>
@@ -97,7 +111,8 @@
 <img src="assets/Final_images/blog_image_3.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Cherishing Love, Making Memories. </h3>
+<h3>Architechture Reclaimed
+Wolid for the Modern </h3>
 </a>
 <p>Dec 10, 2020</p>
 </div>
@@ -108,7 +123,8 @@
 <img src="assets/Final_images/blog_image_4.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Indulge in Culinary Delights: Love Served on a Plate. </h3>
+<h3>Advice for stirring your
+online community </h3>
 </a>
 <p>Dec 12, 2020</p>
 </div>
@@ -119,7 +135,8 @@
 <img src="assets/Final_images/blog_image_3.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Find Your Bliss: Enter and Cherish the Day. </h3>
+<h3>Renovation Architecture
+and Design </h3>
 </a>
 <p>Dec 08, 2020</p>
 </div>
@@ -130,7 +147,8 @@
 <img src="assets/Final_images/blog_image_6.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Step Inside and Celebrate: Begin Your Journey. </h3>
+<h3>Apartment Renovation by
+Flussocreativo Design </h3>
 </a>
 <p>Dec 05, 2020</p>
 </div>
@@ -141,7 +159,8 @@
 <img src="assets/Final_images/blog_image_7.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Radiant Gateway: Illuminating Your Memorable Journey.</h3>
+<h3>Romantic Apartment in
+Rome Renovated</h3>
 </a>
 <p>Nov 10, 2020</p>
 </div>
@@ -152,7 +171,8 @@
 <img src="assets/Final_images/blog_image_8.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Blooms in Abloom: An Enchanting Floral Oasis.</h3>
+<h3>New Renderings Reveal the
+Penthouse Interior</h3>
 </a>
 <p>Nov 18, 2020</p>
 </div>
@@ -163,7 +183,8 @@
 <img src="assets/Final_images/blog_image_9.jpg" alt>
 <div class="sb-content">
 <a href>
-<h3>Luminous Banquet: Where Brilliance Meets Elegance.</h3>
+<h3>Create a House of Your
+Dream: Few Tips</h3>
 </a>
 <p>Nov 25, 2020</p>
 </div>
@@ -175,7 +196,6 @@
 
 
 <?php include 'footer.php'; ?>
-
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>

@@ -45,6 +45,10 @@
 
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
 
+
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> -->
 </head>
 <body>
 
@@ -52,73 +56,63 @@
 <i class="flaticon-up scrollup-icon"></i>
 </button>
 
+
 <header class="mextreo-header-area">
-    <style>
-        .logo-wrapper img {
-            width: 100px; /* Set your desired initial width */
-            height: 100px; /* Set your desired initial height */
-            transition: all 0.3s ease; /* Add a smooth transition effect */
-          
-            }
+<div class="container c-fulid-max">
+<div class="row">
+<div class="col-4 col-md-4">
+<div class="logo-wrapper">
+<a href="index.php">
+<img src="assets/Final_images/100X100 (2).png" alt>
+</a>
+</div>
+</div>
+<div class="col-8 col-md-8">
+<div class="mextreo-menu">
+<div class="mxm-wrspper">
+<nav class="main-nav" role="navigation">
 
-            /* Smaller size of the logo on scroll */
-            .sticky-header .logo-wrapper img {
-            width: 70px; /* Set your desired smaller width */
-            height: 70px; /* Set your desired smaller height */
-            }
-            header.mextreo-header-area .logo-wrapper img {
-            width: 89px;
-            height: 74px; }
-    </style>
-    <div class="container c-fulid-max">
-        <div class="row">
-            <div class="col-4 col-md-4">
-                <div class="logo-wrapper">
-                    <a href="index.php">
-                        <img src="assets\Final_images\100x100.png" alt>
-                    </a>
-                </div>
-            </div>
-            <div class="col-8 col-md-8">
-                <div class="mextreo-menu">
-                <div class="mxm-wrspper">
-                    <nav class="main-nav" role="navigation">
+<input id="main-menu-state" type="checkbox" />
+<label class="main-menu-btn" for="main-menu-state">
+<span class="main-menu-btn-icon"></span>
+</label>
 
-                    <input id="main-menu-state" type="checkbox"/>
-                    <label class="main-menu-btn" for="main-menu-state">
-                    <span class="main-menu-btn-icon"></span>
-                    </label>
+<ul id="main-menu" class="sm sm-mint">
+<li><a href="index.php">Home</a>
 
-                    <ul id="main-menu" class="sm sm-mint">
-                    <li><a href="index.php">Home</a>
-
-                    </li>
-                    <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="service.php">Service</a></li>
-                    <li><a href="">Gallery</a>
-                    <ul>
-                    <li><a href="birthday.php">Birthday</a></li>
-                    <li><a href="chori.php">chori</a></li>
-                    <li><a href="decoration.php">Decoration</a></li>
-                    <li><a href="haldi.php">Haldi</a></li>
-                    <li><a href="swimmingpool.php">Pool Party</a></li>
-                    <li><a href="partyplot.php">Party Plot</a></li>
-                    </ul>
-                    </li>
-
-                    <li><a href="contact.php">Contact</a></li>
-                    <li class="tel"><a href="tel:">+91 8511055545</a></li>
-                    </ul>
-                    </nav>
-                </div>
-                <div class="side-ber">
-                    <button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</li>
+<li><a href="about-us.php">About Us</a></li>
+<li><a href="service.php">Service</a></li>
+<li><a href="">Gallery</a>
+<ul>
+<li><a href="birthday.php">Birthday</a></li>
+<li><a href="Chauri.php">Chauri</a></li>
+<li><a href="decoration.php">Decoration</a></li>
+<li><a href="haldi.php">Haldi</a></li>
+<li><a href="PoolParty.php">Pool Party</a></li>
+<li><a href="partyplot.php">Party Plot</a></li>
+</ul>
+</li>
+<!-- <li><a href="blog.php">Blog</a>
+<ul>
+<li><a href="blog.php">Blog</a></li>
+<li><a href="blog-details.php">Blog Details</a></li>
+</ul>
+</li> -->
+<li><a href="contact.php">Contact</a></li>
+<li class="tel"><a href="tel:">+91 8511055545</a></li>
+</ul>
+</nav>
+</div>
+<div class="side-ber">
+<button class="sidebar-btn"><i class="fas fa-bars" aria-hidden="true"></i></button>
+</div>
+</div>
+</div>
+</div>
+</div>
 </header>
+
 
 <?php include 'side_panel.php'; ?>
 
@@ -137,13 +131,32 @@
 
 <rs-layer id="slider-22-slide-33-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;" data-dim="w:100%;h:100%;" data-frame_999="o:0;st:5000;sp:1460;sR:4700;" style="z-index:8;background-color:rgba(23,22,22,0.71);">
 </rs-layer>
-
 <rs-layer id="slider-22-slide-33-layer-1" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:3px;y:343px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;st:230;sp:1500;sR:230;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3270;" data-loop_999="crd:t;rA:1;" style="z-index:11;font-family:Chronicle Display;text-transform:capitalize;">
-Your Vision, Our Expertise.<br/>
+    <br>
+    Your Vision, Our Expertise.<br/>
 </rs-layer>
 
+<!-- <rs-layer id="slider-22-slide-33-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Crafting Perfection:
+</rs-layer> -->
+<!-- <a id="slider-22-slide-33-layer-4" class="rs-layer hero-btn rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:570px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="rX:0deg;rY:0deg;rZ:0deg;bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;iC:true;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;cursor:pointer;">Discover
+More
+</a> -->
+
 <rs-layer id="slider-22-slide-33-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
-Crafting Perfection: <br/>
+<br>
+Create
+Your <br/>
+</rs-layer>
+<a id="slider-22-slide-33-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
+</a>
+<!-- <a id="slider-22-slide-33-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
+</a> -->
+<a id="slider-22-slide-33-layer-11" class="rs-layer" href="https://www.linkedin.com/feed/" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
+</a>
+<a id="slider-22-slide-33-layer-12" class="rs-layer" href="https://www.instagram.com/npdhevents_1980/" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
+</a>
+
+<rs-layer id="slider-22-slide-33-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:5;background-color:#dcbc95;">
 </rs-layer>
 
 </rs-slide>
@@ -154,11 +167,32 @@ Crafting Perfection: <br/>
 </rs-layer>
 
 <rs-layer id="slider-22-slide-36-layer-1" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:3px;y:343px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;st:230;sp:1500;sR:230;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3270;" data-loop_999="crd:t;rA:1;" style="z-index:11;font-family:Chronicle Display;text-transform:capitalize;">
+<br>    
 Memories Unforgettable.<br/>
 </rs-layer>
 
+<!-- <rs-layer id="slider-22-slide-36-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3000;" style="z-index:12;font-family:Gotham Narrow;">Maxtrio is the most effective way
+to
+launch a custom branded website for your next project. Come to the table
+</rs-layer> -->
+<!-- <a id="slider-22-slide-36-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:13;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
+More
+</a> -->
+
 <rs-layer id="slider-22-slide-36-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:5000;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
-Events Redefined,<br/>
+    <br>
+    Events Redefined,<br/>
+</rs-layer>
+<a id="slider-22-slide-36-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
+</a>
+<!-- <a id="slider-22-slide-36-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i> -->
+</a>
+<a id="slider-22-slide-36-layer-11" class="rs-layer" href="https://www.linkedin.com/feed/" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
+</a>
+<a id="slider-22-slide-36-layer-12" class="rs-layer" href="https://www.instagram.com/npdhevents_1980/" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:5000;" data-frame_hover="c:#dcbc95;" style="z-index:17;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
+</a>
+
+<rs-layer id="slider-22-slide-36-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:5000;" data-frame_hover="bgc:#dcbc95;" style="z-index:10;background-color:#dcbc95;">
 </rs-layer>
 
 </rs-slide>
@@ -169,11 +203,31 @@ Events Redefined,<br/>
 </rs-layer>
 
 <rs-layer id="slider-22-slide-37-layer-1" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:3px;y:343px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;st:230;sp:1500;sR:230;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3270;" data-loop_999="crd:t;rA:1;" style="z-index:10;font-family:Chronicle Display;text-transform:capitalize;">
-We Deliver.<br/>
+    <br><br>
+    We Deliver.<br/>
 </rs-layer>
 
+<!-- <rs-layer id="slider-22-slide-37-layer-3" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:458px;" data-text="w:normal;s:18;l:30;ls:0px;fw:500;a:center;" data-dim="w:570px;minh:0px;" data-frame_0="y:50;" data-frame_1="sp:2500;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3000;" style="z-index:11;font-family:Gotham Narrow;">Maxtrio is the most effective way
+to
+launch a custom branded website for your next project. Come to the table
+</rs-layer> -->
+<!-- <a id="slider-22-slide-37-layer-4" class="rs-layer rev-btn" href="project.php" target="_self" rel="nofollow" data-type="button" data-color="#ffffff" data-rsp_ch="on" data-xy="x:c;y:566px;" data-text="w:normal;s:15;l:25;" data-dim="minh:0px;" data-padding="t:20;r:35;b:20;l:35;" data-frame_0="y:50;" data-frame_1="sp:2700;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:2500;" data-frame_hover="bgc:#dbaa6f;bor:0px,0px,0px,0px;bri:120%;" style="z-index:12;background-color:#dcbc95;font-family:Gotham Narrow;text-transform:uppercase;">Discover
+More
+</a> -->
+
 <rs-layer id="slider-22-slide-37-layer-7" class="rs-pxl-1" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;y:248px;" data-text="w:normal;s:90;l:90;fw:900;a:center;" data-dim="minh:0px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1430;" data-frame_999="y:0;o:0;rX:70deg;oZ:-50;e:Power4.easeInOut;st:w;sp:1750;sR:3570;" data-loop_999="crd:t;rA:1;" style="z-index:9;font-family:Chronicle Display;text-transform:capitalize;">
-From Imagination to Celebration: <br/>
+    <br><br>From Imagination to Celebration:  <br/>
+</rs-layer>
+<a id="slider-22-slide-37-layer-9" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:154px;y:446px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1600;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:13;font-family:Roboto;cursor:pointer;"><i class="fa-facebook-f"></i>
+</a>
+<!-- <a id="slider-22-slide-37-layer-10" class="rs-layer" href="#" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:152px;y:403px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1500;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:14;font-family:Roboto;cursor:pointer;"><i class="fa-twitter"></i>
+</a> -->
+<a id="slider-22-slide-37-layer-11" class="rs-layer" href="https://www.linkedin.com/feed/" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:531px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:2000;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:15;font-family:Roboto;cursor:pointer;"><i class="fa-linkedin"></i>
+</a>
+<a id="slider-22-slide-37-layer-12" class="rs-layer" href="https://www.instagram.com/npdhevents_1980/" target="_self" rel="nofollow" data-type="text" data-color="#a3a3a3" data-rsp_ch="on" data-xy="x:151px;y:491px;" data-text="w:normal;s:25;l:50;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1700;" data-frame_999="o:0;st:w;" data-frame_hover="c:#dcbc95;" style="z-index:16;font-family:Roboto;cursor:pointer;"><i class="fa-instagram"></i>
+</a>
+
+<rs-layer id="slider-22-slide-37-layer-13" data-type="shape" data-rsp_ch="on" data-xy="x:162px;y:303px;" data-text="w:normal;" data-dim="w:2px;h:100px;" data-frame_0="y:50;" data-frame_1="e:Power0.easeInOut;sp:1200;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#dcbc95;" style="z-index:17;background-color:#dcbc95;">
 </rs-layer>
 
 </rs-slide>
@@ -204,7 +258,7 @@ From Imagination to Celebration: <br/>
 </div>
 <div class="col-md-5 offset-md-1 order-md-2 order-1">
 <div class="m-about-content">
-<h2 class="ab-tittle" style="color: #cbc5c5;">NPDH</h2>
+<h2 class="ab-tittle">NPDH</h2>
 <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">ABOUT US</h6>
 <h2 data-aos="fade-up" data-aos-duration="2000">Events Elevated, Memories Captivated.</h2>
 <p data-aos="fade-up" data-aos-duration="2500">NPDH Events is your ultimate partner in creating extraordinary events of all kinds. From corporate gatherings to weddings and everything in between, our expert team delivers seamless execution and innovative flair. With a passion for perfection, we craft experiences that leave a lasting impression. Let us transform your vision into reality, making each occasion an unforgettable celebration.
@@ -222,9 +276,9 @@ From Imagination to Celebration: <br/>
 <div class="row">
 <div class="col-md-5">
 <div class="m-s-content">
-<h2 class="ms-tittle" style="color: #cbc5c5;">Service</h2>
-<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2000" style="color: #d0a15c;">What we do</h6>
-<h2 data-aos="fade-up" data-aos-duration="2000" >Our Service</h2>
+<h2 class="ms-tittle">Service</h2>
+<h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2000">What we do</h6>
+<h2 data-aos="fade-up" data-aos-duration="2000">Our Service</h2>
 <p data-aos="fade-up" data-aos-duration="2500">At NPDH Events, we are your comprehensive event solution. Our versatile services cover a wide spectrum of events, from corporate functions to private celebrations. We offer meticulous planning, creative design, flawless execution, and reliable coordination to ensure every detail is perfectly orchestrated. Our team of experts handles logistics, entertainment, venue selection, catering, and more, tailored to your unique preferences and budget. Whether it's a grand gala, an intimate gathering, or a corporate conference, trust us to elevate your event and leave a lasting impact on your guests.</p>
 <a href="service.php" class="btn-1" data-aos="fade-up" data-aos-duration="3000">LEARN MORE</a>
 </div>
@@ -233,23 +287,22 @@ From Imagination to Celebration: <br/>
 <div class="row">
 <div class="col-md-6" data-aos="fade-down-right" data-aos-duration="3000">
 <div class="single-service si-1">
-<i class="flaticon-house service-icon"><a href="" title="birthday icons"></a></i>
-
-<h3>Architecture</h3>
+<img src="assets\wedding.jpeg" alt="">
+<h3>wedding</h3>
 </div>
 </div>
 <div class="col-md-6">
 <div class="row">
 <div class="col-md-12" data-aos="fade-down-left" data-aos-duration="3000">
 <div class="single-service si-2">
-<i class="flaticon-interior-design service-icon"></i>
-<h3>Interior</h3>
+<img src="assets\birthday.jpeg" alt="">
+<h3>Birthday</h3>
 </div>
 </div>
 <div class="col-md-12" data-aos="fade-up-left" data-aos-duration="3000">
 <div class="single-service">
-<i class="flaticon-plane service-icon"></i>
-<h3>Planing</h3>
+<img src="assets\Decor.jpeg" alt="">
+<h3>Decor</h3>
 </div>
 </div>
 </div>
@@ -267,7 +320,7 @@ From Imagination to Celebration: <br/>
 <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
 <div class="ws-content">
 <div class="ws-t-year">
-<img src="assets/img/about/success-y-bg.jpg" alt>
+<img src="assets\Final_images\05_yrs_image.jpg" alt>
 <h2>05</h2>
 </div>
 <h3>YEARS OF SUCCESSFUL
@@ -291,8 +344,8 @@ THE MARKET</h3>
 <section class="recent-project">
 <div class="container">
 <div class="recent-pro-top">
-<h2 class="rp-tittle" style="color: #cbc5c5;">works</h2>
-<h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000" style="color: #d0a15c;">What we do</h6>
+<h2 class="rp-tittle">works</h2>
+<h6 class="ht-tittle" data-aos="fade-up" data-aos-duration="2000">What we do</h6>
 <h2 data-aos="fade-up" data-aos-duration="3000">Recent Project</h2>
 </div>
 <div class="row">
@@ -304,7 +357,7 @@ THE MARKET</h3>
 <img src="assets/Final_images/recent_project_image_1.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Captivating Scene Love</h3>
+<h3>Gateway to Happiness</h3>
 <!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
@@ -316,7 +369,7 @@ THE MARKET</h3>
 <img src="assets/Final_images/recent_project_image_2.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Gateway to Happiness</h3>
+<h3>Enthralling Arrival</h3>
 <!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
@@ -328,7 +381,7 @@ THE MARKET</h3>
 <img src="assets/Final_images/recent_project_image_3.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Enthralling Arrival</h3>
+<h3>Whimsical Union</h3>
 <!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"> <i class="flaticon-add rp-icon"></i></a>
@@ -337,10 +390,10 @@ THE MARKET</h3>
 <div class="item">
 <div class="single-project" data-aos="fade-up" data-aos-duration="2500">
 <div class="sp-img">
-<img src="assets/Final_images/recent_project_image_4.jpg" alt>
+<img src="assets/Final_images/recent_project_image_2.jpg" alt>
 </div>
 <div class="sp-text">
-<h3>Whimsical Union</h3>
+<h3>Captivating Scene Love</h3>
 <!-- <p>Dedisgn, House</p> -->
 </div>
 <a href="project.php"><i class="flaticon-add rp-icon"></i></a>
@@ -473,7 +526,7 @@ brought in the extra finishing touches.</p>
 <img src="assets/Final_images/blog_image_3.jpg" alt>
 <div class="sb-content">
 <a href="blog.php">
-<h3>Cherishing Love, Making Memories. </h3>
+<h3>Cherishing Love, Making Memories.  </h3>
 </a>
 <p>Dec 10, 2020</p>
 </div>
@@ -484,9 +537,19 @@ brought in the extra finishing touches.</p>
 </section>
 
 
-<?php
-    include "footer.php";
-?>
+<!-- <section class="partner" data-aos="fade-up" data-aos-duration="2500">
+<div class="container">
+<div class="single-partner"><img src="assets/img/partner/pertner1.jpg" alt></div>
+<div class="single-partner"><img src="assets/img/partner/pertner2.jpg" alt></div>
+<div class="single-partner"><img src="assets/img/partner/pertner3.jpg" alt></div>
+<div class="single-partner"><img src="assets/img/partner/pertner4.jpg" alt></div>
+<div class="single-partner"><img src="assets/img/partner/pertner5.jpg" alt></div>
+<div class="single-partner"><img src="assets/img/partner/pertner6.jpg" alt></div>
+</div>
+</section> -->
+
+
+<?php include 'footer.php'; ?>
 
 
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.4.1.min.js"></script>
